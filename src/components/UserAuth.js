@@ -7,61 +7,29 @@ import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Text} from 'react-native-elements';
-export default class Login extends Component {
+import Login from './Login.js';
+import Signup from './Signup.js';
+export default class UserAuth extends Component {
   constructor(props) {
     super(props);
-    Icon.loadFont();
+    //Icon.loadFont();
     this.state = {
-      email: '',
-      password: '',
-      emailError: false,
-      passwordError: false,
+      isLogin: true,
+      user: '',
     };
   }
 
-  onLogin = () => {
-    console.log('onLogin = ' + this.state.username);
-    if (this.state.email === '') {
-      this.setState({
-        emailError: true,
-      });
-    }
-
-    if (this.state.password === '') {
-      this.setState({
-        passwordError: true,
-      });
-    }
-
-    if (!this.state.emailError && !this.state.passwordError) {
-      var user = {
-        email: this.state.email,
-        password: this.state.password,
-      };
-      this.props.onLogin(user);
-    }
+  onButtonPress = user => {
+    this.setState({
+      isLogin: user.isLogin,
+      user: user,
+    });
   };
 
   render() {
     return (
       <View style={styles.container}>
-        <InputView
-          placeHolder="Email"
-          iconName="user"
-          showError={this.state.emailError}
-          onChangeText={email => this.setState({email, emailError: false})}
-        />
-
-        <InputView
-          placeHolder="Password"
-          iconName="lock"
-          showError={this.state.passwordError}
-          onChangeText={password =>
-            this.setState({password, passwordError: false})
-          }
-        />
-
-        <ButtonView title="Login" onPress={this.onLogin} />
+        <Signup onButtonPress={this.onButtonPress} />
       </View>
     );
   }
@@ -69,11 +37,11 @@ export default class Login extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    //flex: 1,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
 
-    //backgroundColor: '#19388A',
+    backgroundColor: '#19388A',
   },
   iconContainer: {
     //alignItems:'center',
@@ -114,10 +82,19 @@ const styles = StyleSheet.create({
     //justifyContent:'center',
     fontStyle: 'italic',
     color: '#E40489',
+    fontSize: 15,
     //marginRight: 10,
     //marginTop: 10,
     //marginRight:50,
     //marginLeft:50,
+  },
+  textButtonContainer: {
+    //flexDirection:'row',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    width: 5,
+    marginTop: 5,
+    backgroundColor: '#777777',
   },
 
   inputContainer: {

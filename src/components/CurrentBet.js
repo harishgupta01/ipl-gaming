@@ -1,67 +1,36 @@
 import {Component} from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {Input} from 'react-native-elements';
+import {Input, Card} from 'react-native-elements';
 import React from 'react';
 import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Text} from 'react-native-elements';
-export default class Login extends Component {
-  constructor(props) {
-    super(props);
-    Icon.loadFont();
-    this.state = {
-      email: '',
-      password: '',
-      emailError: false,
-      passwordError: false,
-    };
-  }
 
-  onLogin = () => {
-    console.log('onLogin = ' + this.state.username);
-    if (this.state.email === '') {
-      this.setState({
-        emailError: true,
-      });
-    }
-
-    if (this.state.password === '') {
-      this.setState({
-        passwordError: true,
-      });
-    }
-
-    if (!this.state.emailError && !this.state.passwordError) {
-      var user = {
-        email: this.state.email,
-        password: this.state.password,
-      };
-      this.props.onLogin(user);
-    }
-  };
-
+export default class CurrentBets extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <InputView
-          placeHolder="Email"
-          iconName="user"
-          showError={this.state.emailError}
-          onChangeText={email => this.setState({email, emailError: false})}
+        <View>
+      <Card title="Current Bet" image={require('../res/team.png')}>
+        <Text style={{marginBottom: 10}}>Who is going to win ?</Text>
+        <View style={{flexDirection: 'row',height:100}}>
+          <Button containerStyle={styles.switchButtonStyle} />
+          <Button containerStyle={styles.switchButtonStyle} />
+        </View>
+        <Button
+          // icon={<Icon name="code" color="#ffffff" />}
+          buttonStyle={{
+            borderRadius: 0,
+            marginLeft: 0,
+            marginRight: 0,
+            marginBottom: 0,
+            //marginTop: 20,
+          }}
+          title="BET NOW"
         />
-
-        <InputView
-          placeHolder="Password"
-          iconName="lock"
-          showError={this.state.passwordError}
-          onChangeText={password =>
-            this.setState({password, passwordError: false})
-          }
-        />
-
-        <ButtonView title="Login" onPress={this.onLogin} />
+      </Card>
+      
       </View>
     );
   }
@@ -73,7 +42,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
-    //backgroundColor: '#19388A',
+    backgroundColor: '#19388A',
+  },
+
+  switchButtonStyle: {
+    flex: 1,
+    width: 80,
+    height: 100,
   },
   iconContainer: {
     //alignItems:'center',

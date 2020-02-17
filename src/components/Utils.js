@@ -8,15 +8,11 @@ import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Text} from 'react-native-elements';
 
-export default class BaseComponent extends Component {
-  constructor(props) {
-    super(props);
+export const isValid = prop => {
+  if (prop !== '' && prop !== undefined) {
+    console.log('prop is = ' + prop + ' so returning true');
+    return true;
   }
-  isValid(param) {
-    if (param !== '' && param !== 'undefined') {
-      return true;
-    }
-
-    return false;
-  }
-}
+  console.log('prop is = ' + prop + ' so returning false');
+  return false;
+};

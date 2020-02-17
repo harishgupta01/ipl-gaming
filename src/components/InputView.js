@@ -4,7 +4,7 @@ import {Input} from 'react-native-elements';
 import React from 'react';
 import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
-import Utils from './Utils';
+import {isValid} from './Utils';
 
 export default class InputView extends Component {
   constructor(props) {
@@ -15,6 +15,11 @@ export default class InputView extends Component {
     };
   }
 
+  onChangeText = text => {
+    console.log('InputView:onChangeText=', text);
+    this.props.onChangeText(text);
+  };
+
   static getDerivedStateFromProps(nextProps, prevState) {
     console.log(
       'getDerivedStateFromProps:nextProps.showError = ' + nextProps.showError,
@@ -22,12 +27,14 @@ export default class InputView extends Component {
     console.log(
       'getDerivedStateFromProps:prevState.showError = ' + prevState.showError,
     );
-    if (
-      Utils.isValid(nextProps.showError) &&
-      nextProps.showError !== prevState.showError
-    ) {
-      return {errorMessage: nextProps.placeHolder + ' is empty'}; // <- this is setState equivalent
+    if (isValid(nextProps.showError)) {
+      if (nextProps.showError === true) {
+        return {errorMessage: nextProps.placeHolder + ' is empty'};
+      } else {
+        return {errorMessage: ''};
+      }
     }
+    return null;
   }
 
   render() {
@@ -40,9 +47,9 @@ export default class InputView extends Component {
         errorStyle={styles.errorStyle}
         inputStyle={styles.inputStyle}
         errorMessage={this.state.errorMessage}
-        leftIcon={<Icon name={this.props.iconName} size={24} color="#8E909E" />}
+        leftIcon={<Icon name={this.props.iconName} size={20} color="#8E909E" />}
         leftIconContainerStyle={styles.iconContainer}
-        onChangeText={this.props.onChangeText}
+        onChangeText={this.onChangeText}
       />
     );
   }
