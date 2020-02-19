@@ -3,12 +3,14 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import {Input} from 'react-native-elements';
 import React from 'react';
 import {View, ImageBackground} from 'react-native';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, StatusBar} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Text} from 'react-native-elements';
 import Login from './Login.js';
 import Signup from './Signup.js';
+import {signupUser, login} from '../rest/RestAPI';
+import {saveAuthToken, retrieveAuthToken} from '../rest/Storage';
 export default class UserAuth extends Component {
   constructor(props) {
     super(props);
@@ -16,20 +18,56 @@ export default class UserAuth extends Component {
     this.state = {
       isLogin: true,
       user: '',
+      hasError: false,
     };
   }
 
   onButtonPress = user => {
-    this.setState({
+    /*this.setState({
       isLogin: user.isLogin,
       user: user,
-    });
+    });*/
+    console.log('harish::UserAuth:onButtonPress = ' + JSON.stringify(user));
+
+    if (user.isLogin) {
+      login(user)
+        //.then(response => response.json())
+        .then(response => {
+          if (response.ok) {
+            return response;
+          } else {
+            console.log('Login response = ' + response.status);
+            console.log('Login response = ' + response.statusText);
+
+            this.setState({
+              hasError: true,
+            });
+
+            return Promise.reject(response);
+          }
+        })
+        .then(responseJson => {
+          console.log('Login response final = ' + responseJson);
+          //saveAuthToken(responseJson);
+        });
+    } else {
+      signupUser(user)
+        .then(response => response.json())
+        .then(responseJson => {
+          console.log(responseJson);
+          saveAuthToken(responseJson);
+          console.log('Signup response = ' + responseJson);
+        });
+    }
   };
 
   render() {
     return (
       <View style={styles.container}>
-        <Signup onButtonPress={this.onButtonPress} />
+        <Signup
+          onButtonPress={this.onButtonPress}
+          hasError={this.state.hasError}
+        />
       </View>
     );
   }

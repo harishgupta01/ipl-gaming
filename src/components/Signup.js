@@ -22,10 +22,16 @@ export default class Signup extends Component {
       passwordError: false,
       confirmpwdError: false,
       isLogin: true,
+      errorMsg: '',
+      hasError: false,
     };
   }
 
   onSignup = () => {
+    this.setState({
+      hasError: false,
+    });
+
     console.log('onSignup = ' + this.state.username);
     if (this.state.username === '') {
       this.setState({
@@ -50,21 +56,27 @@ export default class Signup extends Component {
       });
     }
 
-    if (
-      !this.state.usernameError &&
-      !this.state.emailError &&
-      !this.state.passwordError &&
-      !this.state.confirmpwdError
-    ) {
-      var user = {
-        isLogin: this.state.isLogin,
-        username: this.state.username,
-        email: this.state.email,
-        password: this.state.password,
-        confirmPassword: this.state.confirmpwd,
-      };
-      this.props.onButtonPress(user);
+    if (!isValid(this.state.password) || !isValid(this.state.email)) {
+      console.log("Returning from first condition")
+      return;
     }
+
+    if (
+      !this.state.isLogin &&
+      (isValid(this.state.username) || isValid(this.state.confirmpwd))
+    ) {
+      console.log("Returning from second condition")
+      return;
+    }
+
+    var user = {
+      isLogin: this.state.isLogin,
+      name: this.state.username,
+      email: this.state.email,
+      password: this.state.password,
+      confirmPassword: this.state.confirmpwd,
+    };
+    this.props.onButtonPress(user);
   };
 
   onTextPress = () => {
@@ -78,20 +90,17 @@ export default class Signup extends Component {
     console.log('onChangeText = ' + this.state.username);
   };
 
-  displayConfirmPwd() {
-    if (!this.state.isLogin) {
-      return (
-        <InputView
-          placeHolder="Confirm Password"
-          iconName="lock"
-          showError={this.state.confirmpwdError}
-          onChangeText={confirmpwd =>
-            this.setState({confirmpwd, confirmpwdError: false})
-          }
-        />
-      );
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (isValid(nextProps.hasError)) {
+      if (nextProps.hasError === true && this.state.isLogin === true) {
+        return {errorMsg: 'Username or Password is incorrect', hasError: true};
+      } else if (nextProps.hasError === true && this.state.isLogin === false) {
+        return {errorMsg: 'Username already exist'};
+      }
     }
+    return null;
   }
+
   render() {
     let msg, buttonTitle, title;
     if (!this.state.isLogin) {
@@ -106,6 +115,7 @@ export default class Signup extends Component {
 
     return (
       <View style={styles.container}>
+        {this.displayError()}
         {this.displayUsername()}
         <InputView
           placeHolder="Email"
@@ -157,6 +167,27 @@ export default class Signup extends Component {
           }
         />
       );
+    }
+  }
+
+  displayConfirmPwd() {
+    if (!this.state.isLogin) {
+      return (
+        <InputView
+          placeHolder="Confirm Password"
+          iconName="lock"
+          showError={this.state.confirmpwdError}
+          onChangeText={confirmpwd =>
+            this.setState({confirmpwd, confirmpwdError: false})
+          }
+        />
+      );
+    }
+  }
+
+  displayError() {
+    if (this.state.hasError) {
+      return <Text style={styles.textStyle1}>{this.state.errorMsg} </Text>;
     }
   }
 }
