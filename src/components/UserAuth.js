@@ -19,6 +19,7 @@ export default class UserAuth extends Component {
       isLogin: true,
       user: '',
       hasError: false,
+      loading: false,
     };
   }
 
@@ -34,13 +35,15 @@ export default class UserAuth extends Component {
         //.then(response => response.json())
         .then(response => {
           if (response.ok) {
-            return response;
+            this.setState({
+              hasError: false,
+              loading: false,
+            });
+            return response.json();
           } else {
-            console.log('Login response = ' + response.status);
-            console.log('Login response = ' + response.statusText);
-
             this.setState({
               hasError: true,
+              loading: false,
             });
 
             return Promise.reject(response);
@@ -49,14 +52,42 @@ export default class UserAuth extends Component {
         .then(responseJson => {
           console.log('Login response final = ' + responseJson);
           //saveAuthToken(responseJson);
+        })
+        .catch(function(error) {
+          console.log(
+            'There has been a problem with your fetch operation: ' +
+              error.message,
+          );
         });
     } else {
       signupUser(user)
-        .then(response => response.json())
+        .then(response => {
+          if (response.ok) {
+            this.setState({
+              hasError: false,
+              loading: false,
+            });
+
+            return response.json();
+          } else {
+            this.setState({
+              hasError: true,
+              loading: false,
+            });
+
+            return Promise.reject(response);
+          }
+        })
         .then(responseJson => {
           console.log(responseJson);
-          saveAuthToken(responseJson);
+          //saveAuthToken(responseJson);
           console.log('Signup response = ' + responseJson);
+        })
+        .catch(function(error) {
+          console.log(
+            'There has been a problem with your fetch operation: ' +
+              error.message,
+          );
         });
     }
   };
@@ -67,6 +98,7 @@ export default class UserAuth extends Component {
         <Signup
           onButtonPress={this.onButtonPress}
           hasError={this.state.hasError}
+          loading={this.state.loading}
         />
       </View>
     );

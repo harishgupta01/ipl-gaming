@@ -20,6 +20,7 @@ export default class ButtonView extends Component {
         containerStyle={styles.buttonContainer}
         titleStyle={styles.titleStyle}
         onPress={this.onPress}
+        loading={this.props.loading}
       />
     );
   }

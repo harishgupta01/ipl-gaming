@@ -21,12 +21,6 @@ export default class InputView extends Component {
   };
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    console.log(
-      'getDerivedStateFromProps:nextProps.showError = ' + nextProps.showError,
-    );
-    console.log(
-      'getDerivedStateFromProps:prevState.showError = ' + prevState.showError,
-    );
     if (isValid(nextProps.showError)) {
       if (nextProps.showError === true) {
         return {errorMessage: nextProps.placeHolder + ' is empty'};

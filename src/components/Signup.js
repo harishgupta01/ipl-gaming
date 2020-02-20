@@ -24,12 +24,14 @@ export default class Signup extends Component {
       isLogin: true,
       errorMsg: '',
       hasError: false,
+      loading: false,
     };
   }
 
   onSignup = () => {
     this.setState({
       hasError: false,
+      loading: true,
     });
 
     console.log('onSignup = ' + this.state.username);
@@ -57,15 +59,15 @@ export default class Signup extends Component {
     }
 
     if (!isValid(this.state.password) || !isValid(this.state.email)) {
-      console.log("Returning from first condition")
+      console.log('Returning from first condition');
       return;
     }
 
     if (
       !this.state.isLogin &&
-      (isValid(this.state.username) || isValid(this.state.confirmpwd))
+      (!isValid(this.state.username) || !isValid(this.state.confirmpwd))
     ) {
-      console.log("Returning from second condition")
+      console.log('Returning from second condition');
       return;
     }
 
@@ -83,6 +85,7 @@ export default class Signup extends Component {
     console.log('Buton pressed');
     this.setState(prevState => ({
       isLogin: !prevState.isLogin,
+      hasError: false,
     }));
   };
 
@@ -91,17 +94,35 @@ export default class Signup extends Component {
   };
 
   static getDerivedStateFromProps(nextProps, prevState) {
+    console.log(
+      'getDerivedStateFromProps:nextProps.showError = ' + nextProps.hasError,
+    );
+
+    console.log(
+      'getDerivedStateFromProps:nextProps.prevState.isLogin = ' +
+        prevState.isLogin,
+    );
+    let update = {};
     if (isValid(nextProps.hasError)) {
-      if (nextProps.hasError === true && this.state.isLogin === true) {
-        return {errorMsg: 'Username or Password is incorrect', hasError: true};
-      } else if (nextProps.hasError === true && this.state.isLogin === false) {
-        return {errorMsg: 'Username already exist'};
+      if (nextProps.hasError === true && prevState.isLogin === true) {
+        update.errorMsg = 'Username or Password is incorrect';
+        update.hasError = true;
+      } else if (nextProps.hasError === true && prevState.isLogin === false) {
+        update.errorMsg = 'User already exist';
+        update.hasError = true;
+      } else if (nextProps.hasError === false) {
+        update.hasError = false;
       }
     }
-    return null;
+
+    if (isValid(nextProps.loading)) {
+      update.loading = nextProps.loading;
+    }
+    return update;
   }
 
   render() {
+    console.log('this.state.loading = ' + this.state.loading);
     let msg, buttonTitle, title;
     if (!this.state.isLogin) {
       msg = 'Already have an account.';
@@ -121,7 +142,9 @@ export default class Signup extends Component {
           placeHolder="Email"
           iconName="envelope"
           showError={this.state.emailError}
-          onChangeText={email => this.setState({email, emailError: false})}
+          onChangeText={email =>
+            this.setState({email, emailError: false, hasError: false})
+          }
         />
 
         <InputView
@@ -129,13 +152,17 @@ export default class Signup extends Component {
           iconName="lock"
           showError={this.state.passwordError}
           onChangeText={password =>
-            this.setState({password, passwordError: false})
+            this.setState({password, passwordError: false, hasError: false})
           }
         />
 
         {this.displayConfirmPwd()}
 
-        <ButtonView title={title} onPress={this.onSignup} />
+        <ButtonView
+          title={title}
+          onPress={this.onSignup}
+          loading={this.state.loading}
+        />
 
         <View style={styles.textContainer}>
           <Text style={styles.textStyle1}>{msg} </Text>
@@ -163,7 +190,7 @@ export default class Signup extends Component {
           iconName="user"
           showError={this.state.usernameError}
           onChangeText={username =>
-            this.setState({username, usernameError: false})
+            this.setState({username, usernameError: false, hasError: false})
           }
         />
       );
@@ -178,7 +205,7 @@ export default class Signup extends Component {
           iconName="lock"
           showError={this.state.confirmpwdError}
           onChangeText={confirmpwd =>
-            this.setState({confirmpwd, confirmpwdError: false})
+            this.setState({confirmpwd, confirmpwdError: false, hasError: false})
           }
         />
       );
@@ -187,7 +214,7 @@ export default class Signup extends Component {
 
   displayError() {
     if (this.state.hasError) {
-      return <Text style={styles.textStyle1}>{this.state.errorMsg} </Text>;
+      return <Text style={styles.errorTextStyle}>{this.state.errorMsg} </Text>;
     }
   }
 }
@@ -218,6 +245,17 @@ const styles = StyleSheet.create({
     //justifyContent:'center',
     fontStyle: 'italic',
     color: '#ffffff',
+    //marginRight: 10,
+    //marginTop: 10,
+    //marginRight:50,
+    //marginLeft:50,
+  },
+  errorTextStyle: {
+    //flexDirection:'row',
+    //alignItems:'center',
+    //justifyContent:'center',
+    fontStyle: 'italic',
+    color: 'red',
     //marginRight: 10,
     //marginTop: 10,
     //marginRight:50,
