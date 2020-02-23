@@ -11,6 +11,8 @@ import Login from './Login.js';
 import Signup from './Signup.js';
 import {signupUser, login} from '../rest/RestAPI';
 import {saveAuthToken, retrieveAuthToken} from '../rest/Storage';
+import {CurrentBet} from './CurrentBet.js';
+
 export default class UserAuth extends Component {
   constructor(props) {
     super(props);
@@ -39,6 +41,8 @@ export default class UserAuth extends Component {
               hasError: false,
               loading: false,
             });
+
+            //this.props.navigation.navigate(CurrentBet);
             return response.json();
           } else {
             this.setState({
@@ -50,8 +54,12 @@ export default class UserAuth extends Component {
           }
         })
         .then(responseJson => {
-          console.log('Login response final = ' + responseJson);
+          console.log('Login response final>> = ' + responseJson);
+          this.props.navigation.navigate('App');
           //saveAuthToken(responseJson);
+          console.log(
+            'harish:: this.props.navigation =' + this.props.navigation,
+          );
         })
         .catch(function(error) {
           console.log(
