@@ -31,6 +31,17 @@ export const getCurrentBet = async () => {
   return res;
 };
 
+export const getBetParticipant = res => {
+  
+  var nameArray = [];
+  console.log('nameArray = ' + nameArray);
+  res.forEach(element => {
+    var name = element.name;
+    console.log('getBetParticipant = ' + name.split('vs'));
+    nameArray.push(name.split('vs'));
+  });
+  return nameArray;
+};
 // export const signupUser = async user => {
 //   const queryString =
 //     'email=' + user.email + '&password=' + user.password + '&name=' + user.name;
