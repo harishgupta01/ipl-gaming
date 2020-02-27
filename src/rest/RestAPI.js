@@ -1,5 +1,6 @@
 import React from 'react';
 import {retrieveAuthToken} from './Storage';
+
 const URL = 'https://manishg-beta.herokuapp.com';
 export const signupUser = async user => {
   const queryString =
@@ -43,13 +44,26 @@ export const getBetParticipant = res => {
   return nameArray;
 };
 
-export const saveBet = async () => {
-  const fullURL = URL + '/api/user/betlist';
+export const saveBet = async (teams, firstIndex, secondIndex) => {
+  const fullURL = URL + '/api/user/save';
+  var data = teams[0][0] + 'vs' + teams[0][1] + '=' + teams[0][firstIndex];
+  if (teams.length > 1) {
+    var data =
+      data +
+      '&' +
+      teams[1][0] +
+      'vs' +
+      teams[1][1] +
+      '=' +
+      teams[1][secondIndex];
+  }
+  console.log('Harish::saved bet is = ' + data);
   const res = await fetch(fullURL, {
-    method: 'GET',
+    method: 'POST',
     headers: {
       Authorization: 'Bearer' + retrieveAuthToken(),
     },
+    body: data,
   });
   return res;
 };
@@ -128,7 +142,8 @@ export const parseHistory = res => {
     var totalBets = [];
     bets.forEach(b => {
       console.log('parseHistory2 = ' + b.bet);
-      var eachBet = {name: b.name, bet: b.bet};
+      // var eachBet = {name: b.name, bet: b.bet};
+      var eachBet = [b.name, b.bet];
       totalBets.push(eachBet);
     });
     matches[k] = totalBets;

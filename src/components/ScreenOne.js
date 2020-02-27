@@ -62,6 +62,11 @@ export default class ScreenOne extends Component {
     );
   }
 
+  static navigationOptions = {
+    tabBarIcon: TabIcon,
+    textColor: '#ffff',
+  };
+  
   loadCards() {
     const {matches} = this.state;
     var cardView = [];

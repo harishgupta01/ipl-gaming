@@ -8,9 +8,9 @@ import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {customHeader} from './Header.js';
-
+//import Toast from 'react-native-simple-toast';
 import {Button, Text, Header} from 'react-native-elements';
-import {getCurrentBet, getBetParticipant} from '../rest/RestAPI';
+import {getCurrentBet, getBetParticipant, saveBet} from '../rest/RestAPI';
 const TabIcon = props => (
   <Icon
     name={'poker-chip'}
@@ -68,6 +68,32 @@ export default class CurrentBets extends Component {
     this.setState({selectedIndexSecond});
   };
 
+  saveBet = () => {
+    const {teams, selectedIndexFirst, selectedIndexSecond} = this.state;
+
+    saveBet(teams, selectedIndexFirst, selectedIndexSecond)
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return Promise.reject(response);
+        }
+      })
+      .then(responseJson => {
+        console.log('Bet saved successfully');
+        // Toast.showWithGravity(
+        //   'Your bet saved successfully',
+        //   Toast.LONG,
+        //   Toast.TOP,
+        // );
+      })
+      .catch(function(error) {
+        console.log(
+          'There has been a problem with your fetch operation: ' +
+            error.message,
+        );
+      });
+  };
   render() {
     return (
       <View style={styles.container}>
@@ -82,6 +108,7 @@ export default class CurrentBets extends Component {
 
             <ButtonView
               title="BET NOW"
+              onPress={this.saveBet}
               // onPress={this.onSignup}
               //loading={this.state.loading}
             />
