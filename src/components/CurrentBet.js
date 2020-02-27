@@ -1,22 +1,32 @@
 import {Component} from 'react';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+//import Icon from 'react-native-vector-icons/AntDesign';
 import {Input, Card, ButtonGroup} from 'react-native-elements';
 import React from 'react';
 import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
+import {customHeader} from './Header.js';
+
 import {Button, Text, Header} from 'react-native-elements';
 import {getCurrentBet, getBetParticipant} from '../rest/RestAPI';
 const TabIcon = props => (
-  <Icon name={'home'} size={35} color={props.focused ? 'grey' : 'darkgrey'} />
+  <Icon
+    name={'poker-chip'}
+    type="material-community"
+    size={25}
+    style={{marginTop: 10}}
+    color={props.focused ? 'white' : 'darkgrey'}
+  />
 );
 
 export default class CurrentBets extends Component {
   constructor() {
     super();
     this.state = {
-      selectedIndex: 1,
+      selectedIndexFirst: 1,
+      selectedIndexSecond: 1,
       teams: [],
     };
     //this.updateIndex = this.updateIndex.bind(this)
@@ -47,44 +57,46 @@ export default class CurrentBets extends Component {
 
   static navigationOptions = {
     tabBarIcon: TabIcon,
+    textColor: '#ffff',
   };
 
-  updateIndex = selectedIndex => {
-    this.setState({selectedIndex});
+  updateIndexFirst = selectedIndexFirst => {
+    this.setState({selectedIndexFirst});
+  };
+
+  updateIndexSecond = selectedIndexSecond => {
+    this.setState({selectedIndexSecond});
   };
 
   render() {
     return (
       <View style={styles.container}>
-        <Header
-        //leftComponent={{ icon: 'menu', color: '#fff' }}
-        //centerComponent={{text: 'MY BETS', style: {color: '#fff'}}}
-        //rightComponent={{ icon: 'home', color: '#fff' }}
-        />
-        <Card
-          title="Current Bet"
-          //containerStyle={styles.cardContainer}
-          image={require('../res/team.jpg')}>
-          {this.loadButtonGroup()}
-          <Button
-            containerStyle={styles.buttonContainer}
-            // icon={<Icon name="code" color="#ffffff" />}
+        {customHeader()}
+        <View>
+          <Card
+            title="Current Bet"
+            containerStyle={styles.cardContainer}
+            image={require('../res/team.jpg')}>
+            {this.loadFirstBtnGrp()}
+            {this.loadSecondBtnGrp()}
 
-            title="BET NOW"
-          />
-        </Card>
+            <ButtonView
+              title="BET NOW"
+              // onPress={this.onSignup}
+              //loading={this.state.loading}
+            />
+          </Card>
+        </View>
       </View>
     );
   }
 
-  loadButtonGroup = () => {
+  /*loadButtonGroup = () => {
     const buttons = ['Hello', 'World'];
-    const {selectedIndex} = this.state;
+    const {selectedIndexFirst} = this.state;
     var buttonView = [];
 
     var teams = this.state.teams;
-
-    teams.forEach;
 
     teams.forEach(team => {
       buttonView.push(
@@ -98,6 +110,37 @@ export default class CurrentBets extends Component {
     });
 
     return buttonView;
+  };*/
+
+  loadFirstBtnGrp = () => {
+    var teams = this.state.teams;
+    const {selectedIndexFirst} = this.state;
+    if (teams.length !== 0) {
+      return (
+        <ButtonGroup
+          onPress={this.updateIndexFirst}
+          selectedIndex={selectedIndexFirst}
+          buttons={teams[0]}
+          selectedButtonStyle={{backgroundColor: '#19388A'}}
+          //containerStyle={{height: 100}}
+        />
+      );
+    }
+  };
+
+  loadSecondBtnGrp = () => {
+    var teams = this.state.teams;
+    if (teams.length > 1) {
+      const {selectedIndexSecond} = this.state;
+      return (
+        <ButtonGroup
+          onPress={this.updateIndexSecond}
+          selectedIndex={selectedIndexSecond}
+          buttons={teams[1]}
+          //containerStyle={{height: 100}}
+        />
+      );
+    }
   };
 }
 
@@ -107,14 +150,14 @@ const styles = StyleSheet.create({
     //alignItems: 'center',
     //justifyContent: 'center',
 
-    backgroundColor: '#19388A',
+    backgroundColor: 'lightgrey',
   },
   cardContainer: {
     //flex: 1,
-    //alignItems: 'center',
-    //justifyContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
 
-    backgroundColor: '#19388A',
+    //backgroundColor: '#19388A',
   },
   buttonContainer: {
     //width: 230,

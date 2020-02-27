@@ -32,7 +32,6 @@ export const getCurrentBet = async () => {
 };
 
 export const getBetParticipant = res => {
-  
   var nameArray = [];
   console.log('nameArray = ' + nameArray);
   res.forEach(element => {
@@ -40,8 +39,110 @@ export const getBetParticipant = res => {
     console.log('getBetParticipant = ' + name.split('vs'));
     nameArray.push(name.split('vs'));
   });
+  //nameArray.push(['team11','team22'])
   return nameArray;
 };
+
+export const saveBet = async () => {
+  const fullURL = URL + '/api/user/betlist';
+  const res = await fetch(fullURL, {
+    method: 'GET',
+    headers: {
+      Authorization: 'Bearer' + retrieveAuthToken(),
+    },
+  });
+  return res;
+};
+
+export const getHistory = async () => {
+  const fullURL = URL + '/api/user/getbets';
+  const res = await fetch(fullURL, {
+    method: 'GET',
+    headers: {
+      Authorization: 'Bearer' + retrieveAuthToken(),
+    },
+  });
+
+  // console.log('getHistory = ' + JSON.stringify(res));
+  return res;
+};
+
+export const parseHistory = res => {
+  var res1 = {
+    Test1vsTest2: [
+      {
+        name: '1',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+      {
+        name: '2',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+    ],
+    Test3vsTest4: [
+      {
+        name: '3',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+      {
+        name: '4',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+    ],
+    Test7vsTest2: [
+      {
+        name: '5',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+      {
+        name: '6',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+    ],
+    Test6vsTest4: [
+      {
+        name: '7',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+      {
+        name: '8',
+        betname: 'Test6vsTest7',
+        bet: 'Test7',
+      },
+    ],
+  };
+  //const obj = JSON.parse(res);
+
+  var matches = {};
+  var bets = [];
+  for (var k in res1) {
+    var bets = res1[k];
+    console.log('parseHistory1 = ' + bets);
+    var totalBets = [];
+    bets.forEach(b => {
+      console.log('parseHistory2 = ' + b.bet);
+      var eachBet = {name: b.name, bet: b.bet};
+      totalBets.push(eachBet);
+    });
+    matches[k] = totalBets;
+  }
+
+  console.log('parseHistory3 = ' + matches);
+
+  /*res.forEach(element => {
+    console.log('parseHistory = ' + element);
+  });*/
+  //nameArray.push(['team11','team22'])
+  return res1;
+};
+
 // export const signupUser = async user => {
 //   const queryString =
 //     'email=' + user.email + '&password=' + user.password + '&name=' + user.name;

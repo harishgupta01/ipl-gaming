@@ -10,6 +10,6 @@ import Signup from './src/components/Signup';
 import CurrentBets from './src/components/CurrentBet';
 import UserAuth from './src/components/UserAuth';
 import ScreenOne from './src/components/ScreenOne';
+import TabContainer from './src/components/TabContainer.js';
 
-
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => TabContainer);

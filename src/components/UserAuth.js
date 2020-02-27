@@ -31,7 +31,9 @@ export default class UserAuth extends Component {
       user: user,
     });*/
     console.log('harish::UserAuth:onButtonPress = ' + JSON.stringify(user));
-
+    this.setState({
+      loading: true,
+    });
     if (user.isLogin) {
       login(user)
         //.then(response => response.json())
