@@ -68,6 +68,30 @@ export const saveBet = async (teams, firstIndex, secondIndex) => {
   return res;
 };
 
+export const getBetCount = async teams => {
+  const fullURL = URL + '/api/user/getbetcount';
+  var data = teams[0][0] + 'vs' + teams[0][1] + '=' + teams[0][firstIndex];
+  if (teams.length > 1) {
+    var data =
+      data +
+      '&' +
+      teams[1][0] +
+      'vs' +
+      teams[1][1] +
+      '=' +
+      teams[1][secondIndex];
+  }
+  console.log('Harish::saved bet is = ' + data);
+  const res = await fetch(fullURL, {
+    method: 'POST',
+    headers: {
+      Authorization: 'Bearer' + retrieveAuthToken(),
+    },
+    body: data,
+  });
+  return res;
+};
+
 export const getHistory = async () => {
   const fullURL = URL + '/api/user/getbets';
   const res = await fetch(fullURL, {
@@ -136,8 +160,8 @@ export const parseHistory = res => {
 
   var matches = {};
   var bets = [];
-  for (var k in res1) {
-    var bets = res1[k];
+  for (var k in res) {
+    var bets = res[k];
     console.log('parseHistory1 = ' + bets);
     var totalBets = [];
     bets.forEach(b => {
@@ -155,7 +179,7 @@ export const parseHistory = res => {
     console.log('parseHistory = ' + element);
   });*/
   //nameArray.push(['team11','team22'])
-  return res1;
+  return res;
 };
 
 // export const signupUser = async user => {

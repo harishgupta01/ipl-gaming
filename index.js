@@ -12,4 +12,4 @@ import UserAuth from './src/components/UserAuth';
 import ScreenOne from './src/components/ScreenOne';
 import TabContainer from './src/components/TabContainer.js';
 
-AppRegistry.registerComponent(appName, () => TabContainer);
+AppRegistry.registerComponent(appName, () => App);

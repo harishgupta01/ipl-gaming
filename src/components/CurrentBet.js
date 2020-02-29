@@ -7,8 +7,8 @@ import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
-import {customHeader} from './Header.js';
-//import Toast from 'react-native-simple-toast';
+import CustomHeader from './CustomHeader.js';
+import Toast from 'react-native-simple-toast';
 import {Button, Text, Header} from 'react-native-elements';
 import {getCurrentBet, getBetParticipant, saveBet} from '../rest/RestAPI';
 const TabIcon = props => (
@@ -81,11 +81,11 @@ export default class CurrentBets extends Component {
       })
       .then(responseJson => {
         console.log('Bet saved successfully');
-        // Toast.showWithGravity(
-        //   'Your bet saved successfully',
-        //   Toast.LONG,
-        //   Toast.TOP,
-        // );
+        Toast.showWithGravity(
+          'Your bet saved successfully',
+          Toast.SHORT,
+          Toast.BOTTOM,
+        );
       })
       .catch(function(error) {
         console.log(
@@ -97,7 +97,7 @@ export default class CurrentBets extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {customHeader()}
+        <CustomHeader />
         <View>
           <Card
             title="Current Bet"

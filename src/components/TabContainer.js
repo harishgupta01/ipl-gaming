@@ -9,7 +9,6 @@
 import CurrentBet from './CurrentBet.js';
 import ScreenOne from './ScreenOne.js';
 import {createSwitchNavigator, createAppContainer} from 'react-navigation';
-import {customHeader} from './Header.js';
 /*const App: () => React$Node = () => {
   return <Signup />;
 };*/
