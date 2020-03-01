@@ -19,3 +19,11 @@ export const retrieveAuthToken = async () => {
     // Error retrieving data
   }
 };
+
+export const deleteStorage = async () => {
+  try {
+    await AsyncStorage.clear();
+  } catch (error) {
+    // Error retrieving data
+  }
+};

@@ -7,7 +7,7 @@ import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
-import CustomHeader from './CustomHeader.js';
+import {CustomHeader} from './CustomHeader.js';
 import Toast from 'react-native-simple-toast';
 import {Button, Text, Header} from 'react-native-elements';
 import {getCurrentBet, getBetParticipant, saveBet} from '../rest/RestAPI';
@@ -97,7 +97,7 @@ export default class CurrentBets extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomHeader />
+        {CustomHeader()}
         <View>
           <Card
             title="Current Bet"

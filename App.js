@@ -15,7 +15,7 @@ import Signup from './src/components/Signup';
 import UserAuth from './src/components/UserAuth.js';
 import CurrentBet from './src/components/CurrentBet.js';
 import TabContainer from './src/components/TabContainer.js';
-import CustomHeader from './src/components/CustomHeader.js';
+//import CustomHeader from './src/components/CustomHeader.js';
 import {createSwitchNavigator, createAppContainer} from 'react-navigation';
 /*const App: () => React$Node = () => {
   return <Signup />;
@@ -25,7 +25,7 @@ const SwitchNavigator = createSwitchNavigator(
   {
     Auth: UserAuth,
     App: TabContainer,
-    Header: CustomHeader,
+    //Header: CustomHeader,
   },
   {
     initialRouteName: 'Auth',

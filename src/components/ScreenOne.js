@@ -7,7 +7,7 @@ import {StyleSheet} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Header} from 'react-native-elements';
-import CustomHeader from './CustomHeader.js';
+import {CustomHeader} from './CustomHeader.js';
 import {getHistory, parseHistory} from '../rest/RestAPI';
 import {List, ListItem} from 'react-native-elements';
 const TabIcon = props => (
@@ -56,7 +56,7 @@ export default class ScreenOne extends Component {
     //matches = this.state.matches;
     return (
       <View style={styles.container}>
-        <CustomHeader />
+        {CustomHeader()}
         <ScrollView>{this.loadCards()}</ScrollView>
       </View>
     );
