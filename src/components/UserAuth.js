@@ -12,6 +12,7 @@ import Signup from './Signup.js';
 import {signupUser, login} from '../rest/RestAPI';
 import {saveAuthToken, retrieveAuthToken} from '../rest/Storage';
 import {CurrentBet} from './CurrentBet.js';
+import Toast from 'react-native-simple-toast';
 
 export default class UserAuth extends Component {
   constructor(props) {
@@ -58,6 +59,7 @@ export default class UserAuth extends Component {
         .then(responseJson => {
           console.log('Login response final>> = ' + responseJson);
           this.props.navigation.navigate('App');
+
           //saveAuthToken(responseJson);
           console.log(
             'harish:: this.props.navigation =' + this.props.navigation,
@@ -92,6 +94,11 @@ export default class UserAuth extends Component {
           console.log(responseJson);
           //saveAuthToken(responseJson);
           console.log('Signup response = ' + responseJson);
+          Toast.showWithGravity(
+            'Signup successfull. Please try login.',
+            Toast.SHORT,
+            Toast.BOTTOM,
+          );
         })
         .catch(function(error) {
           console.log(

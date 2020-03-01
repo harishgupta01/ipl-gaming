@@ -118,6 +118,11 @@ export default class Signup extends Component {
     if (isValid(nextProps.loading)) {
       update.loading = nextProps.loading;
     }
+
+    // if (isValid(nextProps.isLogin)) {
+    //   update.loading = nextProps.loading;
+    // }
+
     return update;
   }
 
@@ -167,10 +172,11 @@ export default class Signup extends Component {
         <View style={styles.textContainer}>
           <Text style={styles.textStyle1}>{msg} </Text>
           <Button
-            style={styles.textButtonContainer}
+            //style={styles.textButtonContainer}
             title={buttonTitle}
             type="clear"
-            buttonContainer={styles.textButtonContainer}
+            //buttonContainer={styles.textButtonContainer}
+            buttonStyle = {styles.textButtonContainer}
             titleStyle={styles.textStyle2}
             //onPress={this.setState(prevState => ({
             //isSignUp: !prevState.isSignUp,
@@ -264,22 +270,25 @@ const styles = StyleSheet.create({
 
   textStyle2: {
     //flexDirection:'row',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+   // alignItems: 'flex-start',
+    //justifyContent: 'flex-start',
     fontStyle: 'italic',
     color: '#E40489',
     fontSize: 15,
+    textAlignVertical:'top'
     //marginRight: 10,
-    marginTop: 0,
+    //marginTop: 0,
     //marginRight:50,
     //marginLeft:50,
   },
   textButtonContainer: {
     //flexDirection:'row',
     alignItems: 'flex-start',
-    justifyContent: 'flex-start',
+    //justifyContent: 'flex-start',
     //width: 5,
-    marginTop: 0,
+    //height:30,
+    marginTop: -10,
+    marginLeft: -10,
     //backgroundColor: '#ffffff',
   },
 });
