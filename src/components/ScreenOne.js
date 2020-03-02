@@ -91,7 +91,7 @@ export default class ScreenOne extends Component {
             elevation: 0,
             backgroundColor: 'rgba(52, 52, 52,0.6)',
             //padding: 0,
-            borderColor:'#19388A'
+            borderColor: '#19388A',
           }}
           titleStyle={styles.titleStyle}
           titleNumberOfLines={10}
@@ -99,14 +99,18 @@ export default class ScreenOne extends Component {
           {matches[match].map((u, i) => {
             return (
               <ListItem
-                key={i} 
+                key={i}
                 roundAvatar
                 title={u.name}
                 //bottomDivider
                 rightTitle={u.bet}
-                titleStyle={{color:'#000000'}}
-                rightTitleStyle={{color:'#000000'}}
-                containerStyle={{backgroundColor: 'rgba(255, 255, 255,0.7)', flex: 1,marginTop:5}}
+                titleStyle={{color: '#000000',fontWeight: "bold"}}
+                rightTitleStyle={{color: '#000000',fontWeight: "bold"}}
+                containerStyle={{
+                  backgroundColor: 'rgba(255, 255, 255,0.7)',
+                  flex: 1,
+                  marginTop: 5,
+                }}
                 //avatar={{uri: u.avatar}}
               />
             );
@@ -143,7 +147,7 @@ const styles = StyleSheet.create({
     //backgroundColor: '#19388A',
     color: '#ffffff',
     height: 20,
-    textAlignVertical:'center'
+    textAlignVertical: 'center',
   },
   buttonContainer: {
     //width: 230,

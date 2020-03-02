@@ -229,8 +229,8 @@ const styles = StyleSheet.create({
     //justifyContent: 'center',
 
     //elevation: 0,
-    backgroundColor: '#19388A',
-    color: '#ffffff',
+    //backgroundColor: '#19388A',
+    color: '#000000',
     height: 50,
     //textAlignVertical: 'center',
     fontWeight:'bold',
