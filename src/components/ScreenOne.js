@@ -56,8 +56,12 @@ export default class ScreenOne extends Component {
     //matches = this.state.matches;
     return (
       <View style={styles.container}>
-        {CustomHeader()}
-        <ScrollView>{this.loadCards()}</ScrollView>
+        <ImageBackground
+          source={require('../res/b2.png')}
+          style={styles.backgroundImage}>
+          {CustomHeader()}
+          <ScrollView>{this.loadCards()}</ScrollView>
+        </ImageBackground>
       </View>
     );
   }
@@ -80,18 +84,29 @@ export default class ScreenOne extends Component {
         console.log('Harish bet = ' + u.bet);
       });
     }
-    var x = ['1', '2', '3', '4', '5', '6', '7'];
     for (var match in matches) {
       cardView.push(
-        <Card title={match}>
+        <Card
+          containerStyle={{
+            elevation: 0,
+            backgroundColor: 'rgba(52, 52, 52,0.6)',
+            //padding: 0,
+            borderColor:'#19388A'
+          }}
+          titleStyle={styles.titleStyle}
+          titleNumberOfLines={10}
+          title={match}>
           {matches[match].map((u, i) => {
             return (
               <ListItem
-                key={i}
+                key={i} 
                 roundAvatar
                 title={u.name}
-                bottomDivider
+                //bottomDivider
                 rightTitle={u.bet}
+                titleStyle={{color:'#000000'}}
+                rightTitleStyle={{color:'#000000'}}
+                containerStyle={{backgroundColor: 'rgba(255, 255, 255,0.7)', flex: 1,marginTop:5}}
                 //avatar={{uri: u.avatar}}
               />
             );
@@ -110,7 +125,7 @@ const styles = StyleSheet.create({
     //alignItems: 'center',
     //justifyContent: 'center',
 
-    backgroundColor: 'lightgrey',
+    //backgroundColor: 'lightgrey',
   },
   cardContainer: {
     //flex: 1,
@@ -118,6 +133,17 @@ const styles = StyleSheet.create({
     //justifyContent: 'center',
 
     backgroundColor: '#19388A',
+  },
+  titleStyle: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    elevation: 0,
+    //backgroundColor: '#19388A',
+    color: '#ffffff',
+    height: 20,
+    textAlignVertical:'center'
   },
   buttonContainer: {
     //width: 230,
@@ -164,7 +190,10 @@ const styles = StyleSheet.create({
     //marginRight:50,
     //marginLeft:50,
   },
-
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover', // or 'stretch'
+  },
   inputContainer: {
     //alignItems:'center',
     //justifyContent:'center',

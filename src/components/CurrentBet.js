@@ -44,7 +44,11 @@ export default class CurrentBets extends Component {
           'getCurrentBet response final>> = ' + getBetParticipant(responseJson),
         );
         this.setState({
-          teams: getBetParticipant(responseJson),
+          teams: getBetParticipant(
+            JSON.parse(
+              '[{"_id":"5e2082714518353a5ce96411","id":"301","name":"Test1vsTest2","DateFrom":"2020-01-09T14:00:00.000Z","DateTo":"2020-01-30T14:00:00.000Z"},{"_id":"5e2082714518353a5ce96412","id":"302","name":"Test3vsTest4","DateFrom":"2020-01-10T14:00:00.000Z","DateTo":"2020-01-30T14:00:00.000Z"}]',
+            ),
+          ),
         });
       })
       .catch(function(error) {
@@ -98,22 +102,32 @@ export default class CurrentBets extends Component {
     return (
       <View style={styles.container}>
         {CustomHeader()}
-        <View>
-          <Card
-            title="Current Bet"
-            containerStyle={styles.cardContainer}
-            image={require('../res/team.jpg')}>
-            {this.loadFirstBtnGrp()}
-            {this.loadSecondBtnGrp()}
 
-            <ButtonView
-              title="BET NOW"
-              onPress={this.saveBet}
-              // onPress={this.onSignup}
-              //loading={this.state.loading}
-            />
-          </Card>
-        </View>
+        <ImageBackground
+          source={require('../res/b3.jpeg')}
+          style={styles.backgroundImage}>
+          <View style={{marginTop:10}}>
+            <Card
+              //containerStyle={styles.cardContainerStyle}
+              title="Current Bet"
+              titleStyle={styles.titleStyle}
+              containerStyle={styles.cardContainer}
+              image={require('../res/b5.jpeg')}
+              imageStyle={styles.cardImage}>
+              
+              {this.loadFirstBtnGrp()}
+              {this.loadSecondBtnGrp()}
+              <View style={styles.buttonContainer}>
+              <ButtonView
+                title="BET NOW"
+                onPress={this.saveBet}
+                // onPress={this.onSignup}
+                //loading={this.state.loading}
+              />
+              </View>
+            </Card>
+          </View>
+        </ImageBackground>
       </View>
     );
   }
@@ -148,7 +162,7 @@ export default class CurrentBets extends Component {
           onPress={this.updateIndexFirst}
           selectedIndex={selectedIndexFirst}
           buttons={teams[0]}
-          selectedButtonStyle={{backgroundColor: '#19388A'}}
+          selectedButtonStyle={{backgroundColor: '#19388A',borderColor:'#ffffff00',elevation:0}}
           //containerStyle={{height: 100}}
         />
       );
@@ -177,24 +191,61 @@ const styles = StyleSheet.create({
     //alignItems: 'center',
     //justifyContent: 'center',
 
-    backgroundColor: 'lightgrey',
+    //backgroundColor: 'lightgrey',
   },
   cardContainer: {
     //flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-
-    //backgroundColor: '#19388A',
+    //alignItems: 'center',
+    //justifyContent: 'center',
+    padding: 0,
+    //backgroundColor: '#ffffff00',
+    //borderColor: '#ffffff00',
+    //marginTop:10,
+    backgroundColor: 'rgba(255, 255, 255,0.4)',
+  },
+  cardContainerStyle: {
+    //flex: 1,
+    elevation: 0,
+    backgroundColor: '#ffffff00',
+    padding: 0,
+    //borderColor:'ffffff00'
   },
   buttonContainer: {
+   // flex:1,
     //width: 230,
     //marginTop: 40,
     //borderRadius: 80,
     //borderWidth: 2,
-    backgroundColor: '#E40489',
+    //backgroundColor: '#E40489',
     //Green :02B099
     //Blue:00AE96
     //olor:'#ffffff'
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  titleStyle: {
+    //flex: 1,
+    //alignItems: 'center',
+    //justifyContent: 'center',
+
+    //elevation: 0,
+    backgroundColor: '#19388A',
+    color: '#ffffff',
+    height: 50,
+    //textAlignVertical: 'center',
+    fontWeight:'bold',
+    fontSize:20,
+    marginBottom:0,
+    marginTop:0
+  },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover', // or 'stretch'
+  },
+  cardImage: {
+    //flex: 1,
+    resizeMode: 'cover', // or 'stretch'
+    height:280,
   },
   textContainer: {
     flexDirection: 'row',
