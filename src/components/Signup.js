@@ -162,12 +162,12 @@ export default class Signup extends Component {
         />
 
         {this.displayConfirmPwd()}
-        <View style={{marginTop:40}}>
-        <ButtonView
-          title={title}
-          onPress={this.onSignup}
-          loading={this.state.loading}
-        />
+        <View style={{marginTop: 40}}>
+          <ButtonView
+            title={title}
+            onPress={this.onSignup}
+            loading={this.state.loading}
+          />
         </View>
 
         <View style={styles.textContainer}>
@@ -177,7 +177,7 @@ export default class Signup extends Component {
             title={buttonTitle}
             type="clear"
             //buttonContainer={styles.textButtonContainer}
-            buttonStyle = {styles.textButtonContainer}
+            buttonStyle={styles.textButtonContainer}
             titleStyle={styles.textStyle2}
             //onPress={this.setState(prevState => ({
             //isSignUp: !prevState.isSignUp,
@@ -271,12 +271,12 @@ const styles = StyleSheet.create({
 
   textStyle2: {
     //flexDirection:'row',
-   // alignItems: 'flex-start',
+    // alignItems: 'flex-start',
     //justifyContent: 'flex-start',
     fontStyle: 'italic',
     color: '#E40489',
     fontSize: 15,
-    textAlignVertical:'top'
+    textAlignVertical: 'top',
     //marginRight: 10,
     //marginTop: 0,
     //marginRight:50,

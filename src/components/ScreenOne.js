@@ -90,13 +90,13 @@ export default class ScreenOne extends Component {
       cardView.push(
         <Card
           containerStyle={{
-            elevation: 0,
+            //elevation: 0,
             backgroundColor: 'rgba(10, 20, 46,0.7)',
             //padding: 0,
             borderColor: '#19388A',
           }}
           titleStyle={styles.titleStyle}
-          titleNumberOfLines={10}
+          //titleNumberOfLines={10}
           title={match}>
           {matches[match].map((u, i) => {
             return (
