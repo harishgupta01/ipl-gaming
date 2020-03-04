@@ -109,7 +109,7 @@ export default class ScreenOne extends Component {
                 titleStyle={{color: '#000000',fontWeight: "bold"}}
                 rightTitleStyle={{color: '#000000',fontWeight: "bold"}}
                 containerStyle={{
-                  backgroundColor: 'rgba(255, 255, 255,0.7)',
+                  backgroundColor: 'rgba(255, 255, 255,0.9)',
                   flex: 1,
                   marginTop: 5,
                 }}

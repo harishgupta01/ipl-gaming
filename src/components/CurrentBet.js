@@ -33,15 +33,15 @@ const users = [
     avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
   },
   {
-    name: 'brynn',
+    name: 'harish',
     avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
   },
   {
-    name: 'brynn',
+    name: 'Manish',
     avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
   },
   {
-    name: 'brynn',
+    name: 'Nija',
     avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
   },
   {
@@ -176,14 +176,19 @@ export default class CurrentBets extends Component {
                       //bottomDivider
                       leftAvatar={{
                         source: {
-                          uri:
-                            'https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=' +
-                            u.name,
+                          uri: 'https://api.adorable.io/avatars/50/' + u.name,
+                          /*'https://ui-avatars.com/api/?background=' +
+                            Math.random()
+                              .toString(16)
+                              .slice(2, 8)
+                              .toUpperCase() +
+                            '&color=fff&name=' +
+                            u.name*/
                         },
                       }}
                       titleStyle={{color: '#000000', fontWeight: 'bold'}}
                       containerStyle={{
-                        backgroundColor: 'rgba(255, 255, 255,0.7)',
+                        backgroundColor: 'rgba(255, 255, 255,1)',
                         //flex: 1,
                         marginTop: 5,
                         height: 50,
