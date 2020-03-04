@@ -20,6 +20,8 @@ const TabIcon = props => (
   />
 );
 
+
+
 export default class ScreenOne extends Component {
   constructor() {
     super();
@@ -89,7 +91,7 @@ export default class ScreenOne extends Component {
         <Card
           containerStyle={{
             elevation: 0,
-            backgroundColor: 'rgba(52, 52, 52,0.6)',
+            backgroundColor: 'rgba(10, 20, 46,0.7)',
             //padding: 0,
             borderColor: '#19388A',
           }}
@@ -139,15 +141,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#19388A',
   },
   titleStyle: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+   // flex: 1,
+    //alignItems: 'center',
+    //justifyContent: 'center',
 
     elevation: 0,
     //backgroundColor: '#19388A',
     color: '#ffffff',
     height: 20,
-    textAlignVertical: 'center',
+    //textAlignVertical: 'center',
   },
   buttonContainer: {
     //width: 230,

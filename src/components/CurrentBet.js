@@ -1,16 +1,22 @@
 import {Component} from 'react';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 //import Icon from 'react-native-vector-icons/AntDesign';
-import {Input, Card, ButtonGroup} from 'react-native-elements';
+import {Input, Card, ButtonGroup, avatar} from 'react-native-elements';
 import React from 'react';
-import {View, ImageBackground} from 'react-native';
-import {StyleSheet} from 'react-native';
+import {View, ImageBackground, ScrollView} from 'react-native';
+import {StyleSheet, Image} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {CustomHeader} from './CustomHeader.js';
 import Toast from 'react-native-simple-toast';
-import {Button, Text, Header} from 'react-native-elements';
-import {getCurrentBet, getBetParticipant, saveBet} from '../rest/RestAPI';
+import {Button, Text, Header, Avatar, ListItem} from 'react-native-elements';
+import {
+  getCurrentBet,
+  getBetParticipant,
+  saveBet,
+  getBetCount,
+} from '../rest/RestAPI';
+//import { ScrollView } from 'react-native-gesture-handler';
 const TabIcon = props => (
   <Icon
     name={'poker-chip'}
@@ -20,6 +26,33 @@ const TabIcon = props => (
     color={props.focused ? 'white' : 'darkgrey'}
   />
 );
+
+const users = [
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+  {
+    name: 'brynn',
+    avatar: 'https://s3.amazonaws.com/uifaces/faces/twitter/brynn/128.jpg',
+  },
+];
 
 export default class CurrentBets extends Component {
   constructor() {
@@ -43,6 +76,7 @@ export default class CurrentBets extends Component {
         console.log(
           'getCurrentBet response final>> = ' + getBetParticipant(responseJson),
         );
+        this.getUsersDoneWithBet();
         this.setState({
           teams: getBetParticipant(
             JSON.parse(
@@ -104,9 +138,9 @@ export default class CurrentBets extends Component {
         {CustomHeader()}
 
         <ImageBackground
-          source={require('../res/b3.jpeg')}
+          source={require('../res/b8.jpg')}
           style={styles.backgroundImage}>
-          <View style={{marginTop:10}}>
+          <View style={{marginTop: 10}}>
             <Card
               //containerStyle={styles.cardContainerStyle}
               title="Current Bet"
@@ -114,18 +148,52 @@ export default class CurrentBets extends Component {
               containerStyle={styles.cardContainer}
               image={require('../res/b5.jpeg')}
               imageStyle={styles.cardImage}>
-              
               {this.loadFirstBtnGrp()}
               {this.loadSecondBtnGrp()}
               <View style={styles.buttonContainer}>
-              <ButtonView
-                title="BET NOW"
-                onPress={this.saveBet}
-                // onPress={this.onSignup}
-                //loading={this.state.loading}
-              />
+                <ButtonView
+                  title="BET NOW"
+                  onPress={this.saveBet}
+                  // onPress={this.onSignup}
+                  //loading={this.state.loading}
+                />
               </View>
             </Card>
+            <ScrollView>
+              <Card
+                //containerStyle={styles.cardContainerStyle}
+                title="Bets done so far by ..."
+                titleStyle={styles.titleStyle}
+                containerStyle={styles.cardContainer}
+                imageStyle={styles.cardImage}>
+                {users.map((u, i) => {
+                  return (
+                    <ListItem
+                      key={i}
+                      roundAvatar
+                      title={u.name}
+                      bottomDivider
+                      //bottomDivider
+                      leftAvatar={{
+                        source: {
+                          uri:
+                            'https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=' +
+                            u.name,
+                        },
+                      }}
+                      titleStyle={{color: '#000000', fontWeight: 'bold'}}
+                      containerStyle={{
+                        backgroundColor: 'rgba(255, 255, 255,0.7)',
+                        //flex: 1,
+                        marginTop: 5,
+                        height: 50,
+                      }}
+                      //avatar={{uri: u.avatar}}
+                    />
+                  );
+                })}
+              </Card>
+            </ScrollView>
           </View>
         </ImageBackground>
       </View>
@@ -162,7 +230,11 @@ export default class CurrentBets extends Component {
           onPress={this.updateIndexFirst}
           selectedIndex={selectedIndexFirst}
           buttons={teams[0]}
-          selectedButtonStyle={{backgroundColor: '#19388A',borderColor:'#ffffff00',elevation:0}}
+          selectedButtonStyle={{
+            backgroundColor: '#19388A',
+            borderColor: '#ffffff00',
+            elevation: 0,
+          }}
           //containerStyle={{height: 100}}
         />
       );
@@ -178,11 +250,38 @@ export default class CurrentBets extends Component {
           onPress={this.updateIndexSecond}
           selectedIndex={selectedIndexSecond}
           buttons={teams[1]}
-          //containerStyle={{height: 100}}
+          selectedButtonStyle={{
+            backgroundColor: '#19388A',
+            borderColor: '#ffffff00',
+            elevation: 0,
+          }}
         />
       );
     }
   };
+
+  getUsersDoneWithBet() {
+    getBetCount()
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          return Promise.reject(response);
+        }
+      })
+      .then(responseJson => {
+        console.log('getBetCount response final>> = ' + responseJson);
+        this.setState({
+          users: responseJson,
+        });
+      })
+      .catch(function(error) {
+        console.log(
+          'There has been a problem with your fetch operation: ' +
+            error.message,
+        );
+      });
+  }
 }
 
 const styles = StyleSheet.create({
@@ -201,7 +300,7 @@ const styles = StyleSheet.create({
     //backgroundColor: '#ffffff00',
     //borderColor: '#ffffff00',
     //marginTop:10,
-    backgroundColor: 'rgba(255, 255, 255,0.4)',
+    backgroundColor: 'rgba(10, 20, 46,0.7)',
   },
   cardContainerStyle: {
     //flex: 1,
@@ -210,10 +309,17 @@ const styles = StyleSheet.create({
     padding: 0,
     //borderColor:'ffffff00'
   },
+  user: {
+    width: 100,
+    paddingLeft: 10,
+    flexDirection: 'row',
+    backgroundColor: 'rgba(255, 255, 255,0.7)',
+    marginTop: 5,
+  },
   buttonContainer: {
-   // flex:1,
+    // flex:1,
     //width: 230,
-    //marginTop: 40,
+    marginTop: 20,
     //borderRadius: 80,
     //borderWidth: 2,
     //backgroundColor: '#E40489',
@@ -230,13 +336,13 @@ const styles = StyleSheet.create({
 
     //elevation: 0,
     //backgroundColor: '#19388A',
-    color: '#000000',
+    color: '#ffffff',
     height: 50,
     //textAlignVertical: 'center',
-    fontWeight:'bold',
-    fontSize:20,
-    marginBottom:0,
-    marginTop:0
+    fontWeight: 'bold',
+    fontSize: 20,
+    marginBottom: 0,
+    marginTop: 0,
   },
   backgroundImage: {
     flex: 1,
@@ -245,7 +351,7 @@ const styles = StyleSheet.create({
   cardImage: {
     //flex: 1,
     resizeMode: 'cover', // or 'stretch'
-    height:280,
+    height: 180,
   },
   textContainer: {
     flexDirection: 'row',

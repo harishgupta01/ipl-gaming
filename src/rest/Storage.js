@@ -20,6 +20,26 @@ export const retrieveAuthToken = async () => {
   }
 };
 
+export const saveCurrentBet = async betArray => {
+  try {
+    await AsyncStorage.setItem('bets', JSON.stringify(betArray));
+  } catch (error) {
+    // Error saving data
+  }
+};
+
+export const getBetsFromStore = async () => {
+  try {
+    const value = await AsyncStorage.getItem('bets');
+    if (value !== null) {
+      // Our data is fetched successfully
+      return JSON.parse(value);
+    }
+  } catch (error) {
+    // Error retrieving data
+  }
+};
+
 export const deleteStorage = async () => {
   try {
     await AsyncStorage.clear();

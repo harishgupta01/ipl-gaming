@@ -1,5 +1,6 @@
 import React from 'react';
-import {retrieveAuthToken} from './Storage';
+import {retrieveAuthToken, saveCurrentBet, getBetsFromStore} from './Storage';
+import AsyncStorage from '@react-native-community/async-storage';
 
 const URL = 'https://manishg-beta.herokuapp.com';
 export const signupUser = async user => {
@@ -34,12 +35,15 @@ export const getCurrentBet = async () => {
 
 export const getBetParticipant = res => {
   var nameArray = [];
+  var betArray = [];
   console.log('nameArray = ' + nameArray);
   res.forEach(element => {
     var name = element.name;
+    betArray.push(name);
     console.log('getBetParticipant = ' + name.split('vs'));
     nameArray.push(name.split('vs'));
   });
+  saveCurrentBet(betArray);
   //nameArray.push(['team11','team22'])
   return nameArray;
 };
@@ -68,26 +72,16 @@ export const saveBet = async (teams, firstIndex, secondIndex) => {
   return res;
 };
 
-export const getBetCount = async teams => {
+export const getBetCount = async () => {
   const fullURL = URL + '/api/user/getbetcount';
-  var data = teams[0][0] + 'vs' + teams[0][1] + '=' + teams[0][firstIndex];
-  if (teams.length > 1) {
-    var data =
-      data +
-      '&' +
-      teams[1][0] +
-      'vs' +
-      teams[1][1] +
-      '=' +
-      teams[1][secondIndex];
-  }
-  console.log('Harish::saved bet is = ' + data);
+  var betArray = getBetsFromStore();
+  var bodyData = 'name=' + betArray[0];
   const res = await fetch(fullURL, {
-    method: 'POST',
+    method: 'GET',
     headers: {
       Authorization: 'Bearer' + retrieveAuthToken(),
     },
-    body: data,
+    body: bodyData,
   });
   return res;
 };

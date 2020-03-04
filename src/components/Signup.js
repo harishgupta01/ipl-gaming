@@ -162,12 +162,13 @@ export default class Signup extends Component {
         />
 
         {this.displayConfirmPwd()}
-
+        <View style={{marginTop:40}}>
         <ButtonView
           title={title}
           onPress={this.onSignup}
           loading={this.state.loading}
         />
+        </View>
 
         <View style={styles.textContainer}>
           <Text style={styles.textStyle1}>{msg} </Text>

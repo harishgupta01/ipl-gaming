@@ -29,7 +29,7 @@ export default class ButtonView extends Component {
 const styles = StyleSheet.create({
   buttonContainer: {
     width: 230,
-    marginTop: 40,
+    //marginTop: 40,
     borderRadius: 80,
     //borderWidth: 2,
     backgroundColor: '#E40489',

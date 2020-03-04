@@ -111,13 +111,19 @@ export default class UserAuth extends Component {
 
   render() {
     return (
+      <ImageBackground
+          source={require('../res/b8-2.png')}
+          style={styles.backgroundImage}>
       <View style={styles.container}>
-        <Signup
-          onButtonPress={this.onButtonPress}
-          hasError={this.state.hasError}
-          loading={this.state.loading}
-        />
+        
+          <Signup
+            onButtonPress={this.onButtonPress}
+            hasError={this.state.hasError}
+            loading={this.state.loading}
+          />
+       
       </View>
+       </ImageBackground>
     );
   }
 }
@@ -128,7 +134,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
-    backgroundColor: '#19388A',
+    //backgroundColor: '#19388A',
+  },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover', // or 'stretch'
   },
   iconContainer: {
     //alignItems:'center',
