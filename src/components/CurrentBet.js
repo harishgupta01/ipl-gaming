@@ -160,6 +160,7 @@ export default class CurrentBets extends Component {
         <ImageBackground
           source={require('../res/b8.jpg')}
           style={styles.backgroundImage}>
+          <ScrollView>
           <View style={{marginTop: 10}}>
             <Card
               //containerStyle={styles.cardContainerStyle}
@@ -183,7 +184,7 @@ export default class CurrentBets extends Component {
                 />
               </View>
             </Card>
-            <ScrollView>
+            
               <Card
                 //containerStyle={styles.cardContainerStyle}
                 title="Bets done so far by ..."
@@ -215,8 +216,9 @@ export default class CurrentBets extends Component {
                   );
                 })}
               </Card>
-            </ScrollView>
+            
           </View>
+          </ScrollView>
         </ImageBackground>
       </View>
     );
@@ -296,7 +298,7 @@ export default class CurrentBets extends Component {
           'getBetCount response final>> = ' + JSON.stringify(responseJson),
         );
         this.setState({
-          users: responseJson.data,
+          users: responseJson.data.reverse(),
         });
       })
       .catch(function(error) {
