@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   iconContainer: {
     //alignItems:'center',
     //justifyContent:'center',
-
+    width:20,
     marginRight: 10,
 
     //marginRight:50,
