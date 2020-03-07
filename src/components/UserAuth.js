@@ -4,6 +4,7 @@ import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import Signup from './Signup.js';
 import {signupUser, login} from '../rest/RestAPI';
+import {saveAuthToken} from '../rest/Storage';
 import Toast from 'react-native-simple-toast';
 
 export default class UserAuth extends Component {
@@ -30,34 +31,44 @@ export default class UserAuth extends Component {
     if (user.isLogin) {
       login(user)
         //.then(response => response.json())
-        .then(response => {
-          if (response.ok) {
-            this.setState({
-              hasError: false,
-              loading: false,
-            });
+        // .then(response => {
+        //   if (response.ok) {
+        //     this.setState({
+        //       hasError: false,
+        //       loading: false,
+        //     });
 
-            //this.props.navigation.navigate(CurrentBet);
-            return response.json();
-          } else {
-            this.setState({
-              hasError: true,
-              loading: false,
-            });
+        //     //this.props.navigation.navigate(CurrentBet);
+        //     return response.json();
+        //   } else {
+        //     this.setState({
+        //       hasError: true,
+        //       loading: false,
+        //     });
 
-            return Promise.reject(response);
-          }
-        })
+        //     return Promise.reject(response);
+        //   }
+        // })
         .then(responseJson => {
           console.log('Login response final>> = ' + responseJson);
+          this.setState({
+            hasError: false,
+            loading: false,
+          });
+
+          saveAuthToken(responseJson);
           this.props.navigation.navigate('App');
 
-          //saveAuthToken(responseJson);
           console.log(
             'harish:: this.props.navigation =' + this.props.navigation,
           );
         })
         .catch(function(error) {
+          this.setState({
+            hasError: true,
+            loading: false,
+          });
+
           console.log(
             'There has been a problem with your fetch operation: ' +
               error.message,
@@ -65,26 +76,30 @@ export default class UserAuth extends Component {
         });
     } else {
       signupUser(user)
-        .then(response => {
-          if (response.ok) {
-            this.setState({
-              hasError: false,
-              loading: false,
-            });
+        // .then(response => {
+        //   if (response.ok) {
+        //     this.setState({
+        //       hasError: false,
+        //       loading: false,
+        //     });
+        //       console.log('signupUser:response is = '+response)
+        //     //return response.json();
+        //   } else {
+        //     this.setState({
+        //       hasError: true,
+        //       loading: false,
+        //     });
 
-            return response.json();
-          } else {
-            this.setState({
-              hasError: true,
-              loading: false,
-            });
-
-            return Promise.reject(response);
-          }
-        })
+        //     return Promise.reject(response);
+        //   }
+        // })
         .then(responseJson => {
           console.log(responseJson);
           //saveAuthToken(responseJson);
+          this.setState({
+            hasError: false,
+            loading: false,
+          });
           console.log('Signup response = ' + responseJson);
           Toast.showWithGravity(
             'Signup successfull. Please try login.',
@@ -93,6 +108,10 @@ export default class UserAuth extends Component {
           );
         })
         .catch(function(error) {
+          this.setState({
+            hasError: true,
+            loading: false,
+          });
           console.log(
             'There has been a problem with your fetch operation: ' +
               error.message,

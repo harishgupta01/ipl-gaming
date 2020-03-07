@@ -1,6 +1,7 @@
 import {Header, Avatar} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/AntDesign';
 import React from 'react';
+
 //import {useNavigation} from 'react-navigation-hooks';
 import Logout from './Logout';
 export function CustomHeader() {

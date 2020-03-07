@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 export const saveAuthToken = async token => {
   try {
+    console.log('saveAuthToken')
     await AsyncStorage.setItem('token', token);
   } catch (error) {
     // Error saving data
@@ -9,10 +10,12 @@ export const saveAuthToken = async token => {
 };
 
 export const retrieveAuthToken = async () => {
+  //console.log('retrieveAuthToken ' )
   try {
     const value = await AsyncStorage.getItem('token');
     if (value !== null) {
       // Our data is fetched successfully
+      //console.log('retrieveAuthToken = '+value)
       return value;
     }
   } catch (error) {
@@ -33,7 +36,9 @@ export const getBetsFromStore = async () => {
     const value = await AsyncStorage.getItem('bets');
     if (value !== null) {
       // Our data is fetched successfully
-      return JSON.parse(value);
+      console.log('getBetsFromStore: = ' + value);
+      console.log('getBetsFromStore1: = ' + JSON.parse(value));
+      return value;
     }
   } catch (error) {
     // Error retrieving data

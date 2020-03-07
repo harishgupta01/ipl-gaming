@@ -61,6 +61,7 @@ export default class CurrentBets extends Component {
       selectedIndexFirst: 1,
       selectedIndexSecond: 1,
       teams: [],
+      users: [],
     };
     //this.updateIndex = this.updateIndex.bind(this)
 
@@ -73,17 +74,11 @@ export default class CurrentBets extends Component {
         }
       })
       .then(responseJson => {
-        console.log(
-          'getCurrentBet response final>> = ' + getBetParticipant(responseJson),
-        );
-        this.getUsersDoneWithBet();
         this.setState({
-          teams: getBetParticipant(
-            JSON.parse(
-              '[{"_id":"5e2082714518353a5ce96411","id":"301","name":"Test1vsTest2","DateFrom":"2020-01-09T14:00:00.000Z","DateTo":"2020-01-30T14:00:00.000Z"},{"_id":"5e2082714518353a5ce96412","id":"302","name":"Test3vsTest4","DateFrom":"2020-01-10T14:00:00.000Z","DateTo":"2020-01-30T14:00:00.000Z"}]',
-            ),
-          ),
+          teams: getBetParticipant(responseJson),
         });
+        console.log('getCurrentBet:: = ' + this.state.teams);
+        this.getUsersDoneWithBet(this.state.teams);
       })
       .catch(function(error) {
         console.log(
@@ -105,7 +100,7 @@ export default class CurrentBets extends Component {
   updateIndexSecond = selectedIndexSecond => {
     this.setState({selectedIndexSecond});
   };
-
+  /*
   saveBet = () => {
     const {teams, selectedIndexFirst, selectedIndexSecond} = this.state;
 
@@ -132,7 +127,32 @@ export default class CurrentBets extends Component {
         );
       });
   };
+  */
+
+  saveBet = () => {
+    const {teams, selectedIndexFirst, selectedIndexSecond} = this.state;
+
+    saveBet(teams, selectedIndexFirst, selectedIndexSecond)
+      .then(responseJson => {
+        console.log('Bet saved successfully');
+        Toast.showWithGravity(
+          'Your bet saved successfully!!',
+          Toast.SHORT,
+          Toast.BOTTOM,
+        );
+        this.getUsersDoneWithBet();
+      })
+      .catch(function(error) {
+        console.log(
+          'Save::There has been a problem with your fetch operation: ' +
+            error.message,
+        );
+        Toast.showWithGravity('Bet already exist!!', Toast.SHORT, Toast.BOTTOM);
+      });
+  };
+
   render() {
+    var betUsers = this.state.users;
     return (
       <View style={styles.container}>
         {CustomHeader()}
@@ -147,6 +167,10 @@ export default class CurrentBets extends Component {
               titleStyle={styles.titleStyle}
               containerStyle={styles.cardContainer}
               image={require('../res/b5.jpeg')}
+              // image={{
+              //   uri:
+              //     'https://i.pickadummy.com/300x300?fontsize=120&font=FFF%20Tusj&text=MIvsCSK!',
+              // }}
               imageStyle={styles.cardImage}>
               {this.loadFirstBtnGrp()}
               {this.loadSecondBtnGrp()}
@@ -166,7 +190,7 @@ export default class CurrentBets extends Component {
                 titleStyle={styles.titleStyle}
                 containerStyle={styles.cardContainer}
                 imageStyle={styles.cardImage}>
-                {users.map((u, i) => {
+                {betUsers.map((u, i) => {
                   return (
                     <ListItem
                       key={i}
@@ -177,13 +201,6 @@ export default class CurrentBets extends Component {
                       leftAvatar={{
                         source: {
                           uri: 'https://api.adorable.io/avatars/50/' + u.name,
-                          /*'https://ui-avatars.com/api/?background=' +
-                            Math.random()
-                              .toString(16)
-                              .slice(2, 8)
-                              .toUpperCase() +
-                            '&color=fff&name=' +
-                            u.name*/
                         },
                       }}
                       titleStyle={{color: '#000000', fontWeight: 'bold'}}
@@ -265,19 +282,21 @@ export default class CurrentBets extends Component {
     }
   };
 
-  getUsersDoneWithBet() {
-    getBetCount()
-      .then(response => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          return Promise.reject(response);
-        }
-      })
+  getUsersDoneWithBet(teams) {
+    getBetCount(teams)
+      // .then(response => {
+      //   if (response.ok) {
+      //     return response.json();
+      //   } else {
+      //     return Promise.reject(response);
+      //   }
+      // })
       .then(responseJson => {
-        console.log('getBetCount response final>> = ' + responseJson);
+        console.log(
+          'getBetCount response final>> = ' + JSON.stringify(responseJson),
+        );
         this.setState({
-          users: responseJson,
+          users: responseJson.data,
         });
       })
       .catch(function(error) {
@@ -351,7 +370,7 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover', // or 'stretch'
+    //resizeMode: 'cover', // or 'stretch'
   },
   cardImage: {
     //flex: 1,
