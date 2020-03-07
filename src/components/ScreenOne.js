@@ -27,7 +27,7 @@ export default class ScreenOne extends Component {
     super();
 
     this.state = {
-      matches: '',
+      matches: [],
     };
 
     //parseHistory('');
@@ -40,9 +40,6 @@ export default class ScreenOne extends Component {
         }
       })
       .then(responseJson => {
-        console.log(
-          'getHistory response final>> = ' + parseHistory(responseJson),
-        );
         this.setState({
           matches: parseHistory(responseJson),
         });

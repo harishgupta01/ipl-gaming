@@ -140,7 +140,7 @@ export default class CurrentBets extends Component {
           Toast.SHORT,
           Toast.BOTTOM,
         );
-        this.getUsersDoneWithBet();
+        this.getUsersDoneWithBet(this.state.teams);
       })
       .catch(function(error) {
         console.log(

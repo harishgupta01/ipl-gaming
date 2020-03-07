@@ -203,7 +203,7 @@ export const getHistory = async () => {
 export const parseHistory = res => {
   //const obj = JSON.parse(res);
 
-  var matches = {};
+  var matches = [];
   var bets = [];
   for (var k in res) {
     var bets = res[k];
