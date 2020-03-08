@@ -91,6 +91,19 @@ export const login = async user => {
 //   return res;
 // };
 
+// function sleep(time) {
+//   return new Promise(resolve => setTimeout(resolve, time));
+// }
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if (new Date().getTime() - start > milliseconds) {
+      break;
+    }
+  }
+}
+// Usage!
+
 export const getCurrentBet = async () => {
   const fullURL = URL + '/api/user/betlist';
   const res = await fetch(fullURL, {
@@ -99,7 +112,10 @@ export const getCurrentBet = async () => {
     //   Authorization: 'Bearer' + retrieveAuthToken(),
     // },
   });
+  //sleep(8000);
+  //sleep(1000).then(() => {
   return res;
+  //});
 };
 
 export const getBetParticipant = res => {
@@ -160,9 +176,8 @@ export const saveBet = async (teams, firstIndex, secondIndex) => {
   return res;
 };
 export const getBetCount = async teams => {
-
   var querryData = {};
-  querryData['name'] = teams[0][0] + 'vs' + teams[0][1]
+  querryData.name = teams[0][0] + 'vs' + teams[0][1];
   const fullURL = URL + '/api/user/getbetcount';
   var betArray = getBetsFromStore();
   var bodyData = 'name=' + teams[0][0] + 'vs' + teams[0][1];
@@ -175,7 +190,6 @@ export const getBetCount = async teams => {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
   });
-
 
   // const res = await fetch(fullURL, {
   //   method: 'POST',

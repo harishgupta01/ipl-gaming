@@ -9,7 +9,6 @@ class Logout extends React.Component {
       saveLoginState(false);
       this.props.navigation.navigate('Auth');
     });
-   
   };
 
   render() {

@@ -10,6 +10,7 @@ import ButtonView from './ButtonView.js';
 import {CustomHeader} from './CustomHeader.js';
 import Toast from 'react-native-simple-toast';
 import {Button, Text, Header, Avatar, ListItem} from 'react-native-elements';
+import Spinner from 'react-native-spinkit';
 import {
   getCurrentBet,
   getBetParticipant,
@@ -62,6 +63,7 @@ export default class CurrentBets extends Component {
       selectedIndexSecond: 1,
       teams: [],
       users: [],
+      isVisible: true,
     };
     //this.updateIndex = this.updateIndex.bind(this)
 
@@ -77,6 +79,7 @@ export default class CurrentBets extends Component {
         this.setState({
           teams: getBetParticipant(responseJson),
         });
+        this.changeVisibility();
         console.log('getCurrentBet:: = ' + this.state.teams);
         this.getUsersDoneWithBet(this.state.teams);
       })
@@ -87,6 +90,10 @@ export default class CurrentBets extends Component {
             error.message,
         );
       });
+  }
+
+  changeVisibility() {
+    this.setState({isVisible: !this.state.isVisible});
   }
 
   static navigationOptions = {
@@ -153,7 +160,6 @@ export default class CurrentBets extends Component {
   };
 
   render() {
-    var betUsers = this.state.users;
     return (
       <View style={styles.container}>
         {CustomHeader()}
@@ -185,38 +191,16 @@ export default class CurrentBets extends Component {
                   />
                 </View>
               </Card>
-
-              <Card
-                //containerStyle={styles.cardContainerStyle}
-                title="Bets done so far by ..."
-                titleStyle={styles.titleStyle}
-                containerStyle={styles.cardContainer}
-                imageStyle={styles.cardImage}>
-                {betUsers.map((u, i) => {
-                  return (
-                    <ListItem
-                      key={i}
-                      roundAvatar
-                      title={u.name}
-                      bottomDivider
-                      //bottomDivider
-                      leftAvatar={{
-                        source: {
-                          uri: 'https://api.adorable.io/avatars/50/' + u.name,
-                        },
-                      }}
-                      titleStyle={{color: '#000000', fontWeight: 'bold'}}
-                      containerStyle={{
-                        backgroundColor: 'rgba(255, 255, 255,1)',
-                        //flex: 1,
-                        marginTop: 5,
-                        height: 50,
-                      }}
-                      //avatar={{uri: u.avatar}}
-                    />
-                  );
-                })}
-              </Card>
+              <View style={styles.spinContainer}>
+                <Spinner
+                  style={styles.spinner}
+                  isVisible={this.state.isVisible}
+                  size={70}
+                  type="Circle"
+                  color="white"
+                />
+              </View>
+              {this.loadUserList()}
             </View>
           </ScrollView>
         </ImageBackground>
@@ -244,6 +228,44 @@ export default class CurrentBets extends Component {
 
     return buttonView;
   };*/
+  loadUserList = () => {
+    var betUsers = this.state.users;
+    if (betUsers.length != 0) {
+      return (
+        <Card
+          //containerStyle={styles.cardContainerStyle}
+          title="Bets done so far by ..."
+          titleStyle={styles.titleStyle}
+          containerStyle={styles.cardContainer}
+          imageStyle={styles.cardImage}>
+          {betUsers.map((u, i) => {
+            return (
+              <ListItem
+                key={i}
+                roundAvatar
+                title={u.name}
+                bottomDivider
+                //bottomDivider
+                leftAvatar={{
+                  source: {
+                    uri: 'https://api.adorable.io/avatars/50/' + u.name,
+                  },
+                }}
+                titleStyle={{color: '#000000', fontWeight: 'bold'}}
+                containerStyle={{
+                  backgroundColor: 'rgba(255, 255, 255,1)',
+                  //flex: 1,
+                  marginTop: 5,
+                  height: 50,
+                }}
+                //avatar={{uri: u.avatar}}
+              />
+            );
+          })}
+        </Card>
+      );
+    }
+  };
 
   loadFirstBtnGrp = () => {
     var teams = this.state.teams;
@@ -318,6 +340,13 @@ const styles = StyleSheet.create({
 
     //backgroundColor: 'lightgrey',
   },
+  spinContainer: {
+    // flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    //backgroundColor: 'lightgrey',
+  },
   cardContainer: {
     //flex: 1,
     //alignItems: 'center',
@@ -327,6 +356,9 @@ const styles = StyleSheet.create({
     //borderColor: '#ffffff00',
     //marginTop:10,
     backgroundColor: 'rgba(10, 20, 46,0.7)',
+  },
+  spinner: {
+    marginBottom: 50,
   },
   cardContainerStyle: {
     //flex: 1,
