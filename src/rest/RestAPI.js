@@ -205,7 +205,7 @@ export const getHistory = async () => {
       Authorization: 'Bearer' + retrieveAuthToken(),
     },
   });
-
+  //sleep(8000);
   // console.log('getHistory = ' + JSON.stringify(res));
   return res;
 };

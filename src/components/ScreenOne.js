@@ -10,6 +10,7 @@ import {Button, Header} from 'react-native-elements';
 import {CustomHeader} from './CustomHeader.js';
 import {getHistory, parseHistory} from '../rest/RestAPI';
 import {List, ListItem} from 'react-native-elements';
+import Spinner from 'react-native-spinkit';
 const TabIcon = props => (
   <Icon
     name={'history'}
@@ -28,6 +29,7 @@ export default class ScreenOne extends Component {
 
     this.state = {
       matches: [],
+      isVisible: true,
     };
 
     //parseHistory('');
@@ -40,6 +42,7 @@ export default class ScreenOne extends Component {
         }
       })
       .then(responseJson => {
+        this.changeVisibility();
         this.setState({
           matches: parseHistory(responseJson),
         });
@@ -59,6 +62,15 @@ export default class ScreenOne extends Component {
           source={require('../res/b2.png')}
           style={styles.backgroundImage}>
           {CustomHeader()}
+          <View style={styles.spinContainer}>
+                <Spinner
+                  style={styles.spinner}
+                  isVisible={this.state.isVisible}
+                  size={70}
+                  type="Circle"
+                  color="white"
+                />
+              </View>
           <ScrollView>{this.loadCards()}</ScrollView>
         </ImageBackground>
       </View>
@@ -69,6 +81,10 @@ export default class ScreenOne extends Component {
     tabBarIcon: TabIcon,
     textColor: '#ffff',
   };
+
+  changeVisibility() {
+    this.setState({isVisible: !this.state.isVisible});
+  }
 
   loadCards() {
     const {matches} = this.state;
@@ -136,6 +152,16 @@ const styles = StyleSheet.create({
     //justifyContent: 'center',
 
     backgroundColor: '#19388A',
+  },
+  spinContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    //backgroundColor: 'lightgrey',
+  },
+  spinner: {
+    marginBottom: 50,
   },
   titleStyle: {
    // flex: 1,
