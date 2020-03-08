@@ -4,7 +4,7 @@ import {View, ImageBackground} from 'react-native';
 import {StyleSheet} from 'react-native';
 import Signup from './Signup.js';
 import {signupUser, login} from '../rest/RestAPI';
-import {saveAuthToken} from '../rest/Storage';
+import {saveLoginState, isLoggedIn} from '../rest/Storage';
 import Toast from 'react-native-simple-toast';
 
 export default class UserAuth extends Component {
@@ -16,7 +16,17 @@ export default class UserAuth extends Component {
       user: '',
       hasError: false,
       loading: false,
+      isUserloggedIn: true,
     };
+    isLoggedIn().then(status => {
+      if (status) {
+        this.props.navigation.navigate('App');
+      } else {
+        this.setState({
+          isUserloggedIn: false,
+        });
+      }
+    });
   }
 
   onButtonPress = user => {
@@ -56,7 +66,8 @@ export default class UserAuth extends Component {
             loading: false,
           });
 
-          saveAuthToken(responseJson);
+          //saveAuthToken(responseJson);
+          saveLoginState(true);
           this.props.navigation.navigate('App');
 
           console.log(
@@ -121,19 +132,24 @@ export default class UserAuth extends Component {
   };
 
   render() {
-    return (
-      <ImageBackground
-        source={require('../res/b8-2.png')}
-        style={styles.backgroundImage}>
-        <View style={styles.container}>
-          <Signup
-            onButtonPress={this.onButtonPress}
-            hasError={this.state.hasError}
-            loading={this.state.loading}
-          />
-        </View>
-      </ImageBackground>
-    );
+    if (this.state.isUserloggedIn) {
+      return null;
+    } else {
+      return (
+        <ImageBackground
+          source={require('../res/b8-2.png')}
+          style={styles.backgroundImage}>
+          <View style={styles.container}>
+            <Signup
+              onButtonPress={this.onButtonPress}
+              hasError={this.state.hasError}
+              loading={this.state.loading}
+            />
+          </View>
+        </ImageBackground>
+      );
+    }
+
   }
 }
 

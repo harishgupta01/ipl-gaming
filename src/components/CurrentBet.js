@@ -81,6 +81,7 @@ export default class CurrentBets extends Component {
         this.getUsersDoneWithBet(this.state.teams);
       })
       .catch(function(error) {
+        this.props.navigation.navigate('Auth');
         console.log(
           'There has been a problem with your fetch operation: ' +
             error.message,
@@ -161,30 +162,30 @@ export default class CurrentBets extends Component {
           source={require('../res/b8.jpg')}
           style={styles.backgroundImage}>
           <ScrollView>
-          <View style={{marginTop: 10}}>
-            <Card
-              //containerStyle={styles.cardContainerStyle}
-              title="Current Bet"
-              titleStyle={styles.titleStyle}
-              containerStyle={styles.cardContainer}
-              image={require('../res/b5.jpeg')}
-              // image={{
-              //   uri:
-              //     'https://i.pickadummy.com/300x300?fontsize=120&font=FFF%20Tusj&text=MIvsCSK!',
-              // }}
-              imageStyle={styles.cardImage}>
-              {this.loadFirstBtnGrp()}
-              {this.loadSecondBtnGrp()}
-              <View style={styles.buttonContainer}>
-                <ButtonView
-                  title="BET NOW"
-                  onPress={this.saveBet}
-                  // onPress={this.onSignup}
-                  //loading={this.state.loading}
-                />
-              </View>
-            </Card>
-            
+            <View style={{marginTop: 10}}>
+              <Card
+                //containerStyle={styles.cardContainerStyle}
+                title="Current Bet"
+                titleStyle={styles.titleStyle}
+                containerStyle={styles.cardContainer}
+                image={require('../res/b5.jpeg')}
+                // image={{
+                //   uri:
+                //     'https://i.pickadummy.com/300x300?fontsize=120&font=FFF%20Tusj&text=MIvsCSK!',
+                // }}
+                imageStyle={styles.cardImage}>
+                {this.loadFirstBtnGrp()}
+                {this.loadSecondBtnGrp()}
+                <View style={styles.buttonContainer}>
+                  <ButtonView
+                    title="BET NOW"
+                    onPress={this.saveBet}
+                    // onPress={this.onSignup}
+                    //loading={this.state.loading}
+                  />
+                </View>
+              </Card>
+
               <Card
                 //containerStyle={styles.cardContainerStyle}
                 title="Bets done so far by ..."
@@ -216,8 +217,7 @@ export default class CurrentBets extends Component {
                   );
                 })}
               </Card>
-            
-          </View>
+            </View>
           </ScrollView>
         </ImageBackground>
       </View>
@@ -376,7 +376,7 @@ const styles = StyleSheet.create({
   },
   cardImage: {
     //flex: 1,
-    resizeMode: 'cover', // or 'stretch'
+    //resizeMode: 'cover', // or 'stretch'
     height: 180,
   },
   textContainer: {

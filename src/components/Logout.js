@@ -1,11 +1,15 @@
 import React from 'react';
 import {withNavigation} from 'react-navigation';
 import Icon from 'react-native-vector-icons/AntDesign';
-import {deleteStorage} from './../rest/Storage.js';
+import {deleteStorage, saveLoginState} from './../rest/Storage.js';
+import {logout} from '../rest/RestAPI';
 class Logout extends React.Component {
   onLogout = () => {
-    deleteStorage();
-    this.props.navigation.navigate('Auth');
+    logout().then(() => {
+      saveLoginState(false);
+      this.props.navigation.navigate('Auth');
+    });
+   
   };
 
   render() {
