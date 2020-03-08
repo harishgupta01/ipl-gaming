@@ -30,6 +30,7 @@ export default class UserAuth extends Component {
   }
 
   onButtonPress = user => {
+    var self = this;
     /*this.setState({
       isLogin: user.isLogin,
       user: user,
@@ -75,15 +76,14 @@ export default class UserAuth extends Component {
           );
         })
         .catch(function(error) {
-          this.setState({
-            hasError: true,
-            loading: false,
-          });
-
           console.log(
             'There has been a problem with your fetch operation: ' +
               error.message,
           );
+          self.setState({
+            hasError: true,
+            loading: false,
+          });
         });
     } else {
       signupUser(user)
@@ -119,14 +119,14 @@ export default class UserAuth extends Component {
           );
         })
         .catch(function(error) {
-          this.setState({
-            hasError: true,
-            loading: false,
-          });
           console.log(
             'There has been a problem with your fetch operation: ' +
               error.message,
           );
+          self.setState({
+            hasError: true,
+            loading: false,
+          });
         });
     }
   };
@@ -149,7 +149,6 @@ export default class UserAuth extends Component {
         </ImageBackground>
       );
     }
-
   }
 }
 

@@ -53,24 +53,20 @@ export const signupUser = async user => {
 
 export const login = async user => {
   const fullURL = URL + '/api/user/login';
-  const res = await axios
-    .post(
-      fullURL,
-      querystring.stringify({
-        email: user.email,
-        password: user.password,
-      }),
-      {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
+  const res = await axios.post(
+    fullURL,
+    querystring.stringify({
+      email: user.email,
+      password: user.password,
+    }),
+    {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
       },
-    )
-    .then(function(response) {
-      console.log('login = ' + response);
-    });
+    },
+  );
 
-  //return res;
+  return res;
 };
 
 // export const login = async user => {
