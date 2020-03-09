@@ -183,6 +183,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D519CD40A4844640BF21C98F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D84835CDB9559D58F88EF59B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,14 +204,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		D519CD40A4844640BF21C98F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -687,11 +686,13 @@
 			baseConfigurationReference = 714484295FA981955C7E2C5D /* Pods-iplGaming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = LPP27B939A;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iplGaming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -708,10 +709,12 @@
 			baseConfigurationReference = 4E98295135BAE60F3A7F9EC2 /* Pods-iplGaming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_TEAM = LPP27B939A;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iplGaming/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
