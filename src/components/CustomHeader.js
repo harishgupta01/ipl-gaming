@@ -23,6 +23,6 @@ export function CustomHeader() {
 
 function loadImage() {
   return (
-    <Avatar rounded size="small" source={require('../res/ipllogo2.png')} />
+    <Avatar rounded size="small" source={require('../res/ipllogo2.jpeg')} />
   );
 }
