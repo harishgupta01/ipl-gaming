@@ -10,7 +10,7 @@ import {Button, Header} from 'react-native-elements';
 import {CustomHeader} from './CustomHeader.js';
 import {getHistory, parseHistory} from '../rest/RestAPI';
 import {List, ListItem} from 'react-native-elements';
-import Spinner from 'react-native-spinkit';
+//import Spinner from 'react-native-spinkit';
 const TabIcon = props => (
   <Icon
     name={'history'}
@@ -63,13 +63,13 @@ export default class ScreenOne extends Component {
           style={styles.backgroundImage}>
           {CustomHeader()}
           <View style={styles.spinContainer}>
-                <Spinner
+                {/* <Spinner
                   style={styles.spinner}
                   isVisible={this.state.isVisible}
                   size={70}
                   type="Circle"
                   color="white"
-                />
+                /> */}
               </View>
           <ScrollView>{this.loadCards()}</ScrollView>
         </ImageBackground>

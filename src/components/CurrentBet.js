@@ -8,9 +8,9 @@ import {StyleSheet, Image} from 'react-native';
 import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {CustomHeader} from './CustomHeader.js';
-import Toast from 'react-native-simple-toast';
+//import Toast from 'react-native-simple-toast';
 import {Button, Text, Header, Avatar, ListItem} from 'react-native-elements';
-import Spinner from 'react-native-spinkit';
+//import Spinner from 'react-native-spinkit';
 import {
   getCurrentBet,
   getBetParticipant,
@@ -143,11 +143,11 @@ export default class CurrentBets extends Component {
     saveBet(teams, selectedIndexFirst, selectedIndexSecond)
       .then(responseJson => {
         console.log('Bet saved successfully');
-        Toast.showWithGravity(
-          'Your bet saved successfully!!',
-          Toast.SHORT,
-          Toast.BOTTOM,
-        );
+        // Toast.showWithGravity(
+        //   'Your bet saved successfully!!',
+        //   Toast.SHORT,
+        //   Toast.BOTTOM,
+        // );
         this.getUsersDoneWithBet(this.state.teams);
       })
       .catch(function(error) {
@@ -155,7 +155,7 @@ export default class CurrentBets extends Component {
           'Save::There has been a problem with your fetch operation: ' +
             error.message,
         );
-        Toast.showWithGravity('Bet already exist!!', Toast.SHORT, Toast.BOTTOM);
+        // Toast.showWithGravity('Bet already exist!!', Toast.SHORT, Toast.BOTTOM);
       });
   };
 
@@ -192,13 +192,13 @@ export default class CurrentBets extends Component {
                 </View>
               </Card>
               <View style={styles.spinContainer}>
-                <Spinner
+                {/* <Spinner
                   style={styles.spinner}
                   isVisible={this.state.isVisible}
                   size={70}
                   type="Circle"
                   color="white"
-                />
+                /> */}
               </View>
               {this.loadUserList()}
             </View>

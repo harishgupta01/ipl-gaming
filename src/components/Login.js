@@ -61,7 +61,7 @@ export default class Login extends Component {
           }
         />
 
-        <ButtonView title="Login" onPress={this.onLogin} />
+        <ButtonView title="Login Now" onPress={this.onLogin} />
       </View>
     );
   }

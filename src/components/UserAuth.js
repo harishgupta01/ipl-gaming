@@ -5,7 +5,7 @@ import {StyleSheet} from 'react-native';
 import Signup from './Signup.js';
 import {signupUser, login} from '../rest/RestAPI';
 import {saveLoginState, isLoggedIn} from '../rest/Storage';
-import Toast from 'react-native-simple-toast';
+//import Toast from 'react-native-simple-toast';
 
 export default class UserAuth extends Component {
   constructor(props) {
@@ -112,11 +112,11 @@ export default class UserAuth extends Component {
             loading: false,
           });
           console.log('Signup response = ' + responseJson);
-          Toast.showWithGravity(
-            'Signup successfull. Please try login.',
-            Toast.SHORT,
-            Toast.BOTTOM,
-          );
+          // Toast.showWithGravity(
+          //   'Signup successfull. Please try login.',
+          //   Toast.SHORT,
+          //   Toast.BOTTOM,
+          // );
         })
         .catch(function(error) {
           console.log(

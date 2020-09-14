@@ -17,6 +17,17 @@ import CurrentBet from './src/components/CurrentBet.js';
 import TabContainer from './src/components/TabContainer.js';
 //import CustomHeader from './src/components/CustomHeader.js';
 import {createSwitchNavigator, createAppContainer} from 'react-navigation';
+
+
+import {AppRegistry} from 'react-native';
+import {name as appName} from './app.json';
+
+import ScreenOne from './src/components/ScreenOne';
+
+
+
+
+
 /*const App: () => React$Node = () => {
   return <Signup />;
 };*/
@@ -36,10 +47,10 @@ const AppContainer = createAppContainer(SwitchNavigator);
 
 // export  AppContainer;
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return <AppContainer />;
   }
 }
 
-export default App;
+AppRegistry.registerComponent("IplBetting", () => App);
