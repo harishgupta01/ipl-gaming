@@ -1,0 +1,226 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874166384' stop='1669874214848'>
+    <name>My Trap section validations: Check previous and next trap check image</name>
+    <title>My Trap section validations: Check previous and next trap check image</title>
+    <test-cases>
+        <test-case start='1669874166384' status='passed' stop='1669874166384'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874166384' status='passed' stop='1669874166385'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874166385' status='passed' stop='1669874202866'>
+            <name>When i click on the trap check image</name>
+            <title>When i click on the trap check image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874167690' status='passed' stop='1669874167690'>
+                    <name>Clicked on Element Trap Tab</name>
+                    <title>Clicked on Element Trap Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874181696' status='failed' stop='1669874181696'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874183447' status='passed' stop='1669874183447'>
+                    <name>Clicked on Element Trap Device</name>
+                    <title>Clicked on Element Trap Device</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874184624' status='passed' stop='1669874184624'>
+                    <name>Trap Name Element is Displayed</name>
+                    <title>Trap Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874185663' status='passed' stop='1669874185663'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874186913' status='passed' stop='1669874186913'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874200916' status='failed' stop='1669874200916'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874202864' status='passed' stop='1669874202864'>
+                    <name>Clicked on Element Insect Image</name>
+                    <title>Clicked on Element Insect Image</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b805f4da-9240-4fe6-a758-9d83340e3619-attachment.png' type='image/png' size='709808'/>
+                <attachment title='Screenshot' source='3f61068b-0944-4bfc-8e64-62a9640419b6-attachment.png' type='image/png' size='207816'/>
+                <attachment title='Screenshot' source='34ee55b2-a491-41f3-bc28-2a7a32684dc8-attachment.png' type='image/png' size='170244'/>
+                <attachment title='Screenshot' source='b1c3cc70-9716-4b15-b36a-aee2047a1e9e-attachment.png' type='image/png' size='170218'/>
+                <attachment title='Screenshot' source='f9677356-784a-43d2-9b15-ae5a2ed48a9a-attachment.png' type='image/png' size='170218'/>
+                <attachment title='Screenshot' source='4c08d493-ed23-45b8-b63b-ed435d1bcfd6-attachment.png' type='image/png' size='170218'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874202867' status='passed' stop='1669874205511'>
+            <name>Then I should see Next and Previous button on a trap image</name>
+            <title>Then I should see Next and Previous button on a trap image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874204506' status='passed' stop='1669874204507'>
+                    <name>Next Button is displayed</name>
+                    <title>Next Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874205510' status='passed' stop='1669874205510'>
+                    <name>Previous Button is displayed</name>
+                    <title>Previous Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874205511' status='passed' stop='1669874205512'>
+            <name>And Next and Previous button should be enabled only when there are more than one trap check images for the selected trap</name>
+            <title>And Next and Previous button should be enabled only when there are more than one trap check images for the selected trap</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874205513' status='passed' stop='1669874206718'>
+            <name>And I should see current image, total images in between Next and Previous buttons</name>
+            <title>And I should see current image, total images in between Next and Previous buttons</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874206716' status='passed' stop='1669874206717'>
+                    <name>Current Total Images Count is displayed</name>
+                    <title>Current Total Images Count is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874206718' status='passed' stop='1669874214848'>
+            <name>And I should view different trap check images by clicking on next and previous button</name>
+            <title>And I should view different trap check images by clicking on next and previous button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874207924' status='passed' stop='1669874207924'>
+                    <name>Clicked on Element Previous image button</name>
+                    <title>Clicked on Element Previous image button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874209980' status='passed' stop='1669874209980'>
+                    <name>Clicked on Element Next image button</name>
+                    <title>Clicked on Element Next image button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874211718' status='passed' stop='1669874211718'>
+                    <name>Clicked on Element Previous image button</name>
+                    <title>Clicked on Element Previous image button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874213616' status='passed' stop='1669874213616'>
+                    <name>Close Image Button is displayed</name>
+                    <title>Close Image Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874214847' status='passed' stop='1669874214847'>
+                    <name>Clicked on Element Close Image Button</name>
+                    <title>Clicked on Element Close Image Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874214848' status='passed' stop='1669874214848'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

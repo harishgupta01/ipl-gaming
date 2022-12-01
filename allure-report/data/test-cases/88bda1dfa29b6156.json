@@ -1,0 +1,62 @@
+{
+  "uid" : "88bda1dfa29b6156",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "fullName" : "My Trap section validations: Verify Remove region from slider on Trap tab.Given I am logged in as a user and navigated to Trap screen",
+  "historyId" : "ef4db665a99f7f870670156e739c281d",
+  "time" : {
+    "start" : 1669874246863,
+    "stop" : 1669874246866,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am logged in as a user and navigated to Trap screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88bda1dfa29b6156.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

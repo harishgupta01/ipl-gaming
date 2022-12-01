@@ -1,0 +1,60 @@
+{
+  "uid" : "66aea7b5b5c24d73",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify Apply Button.",
+  "historyId" : "2f8db267648d303b41f5399f89548009",
+  "time" : {
+    "start" : 1669873895849,
+    "stop" : 1669873895850,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66aea7b5b5c24d73.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

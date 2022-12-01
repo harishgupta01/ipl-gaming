@@ -1,0 +1,60 @@
+{
+  "uid" : "942c83451beb7393",
+  "name" : "",
+  "fullName" : "My Trap section validations: Zoom the trap check image.",
+  "historyId" : "97b1f654a9a4ac6591cfc3c41d7d0560",
+  "time" : {
+    "start" : 1669874120782,
+    "stop" : 1669874120782,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "942c83451beb7393.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

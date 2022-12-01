@@ -1,0 +1,62 @@
+{
+  "uid" : "97d224918684a5de",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "fullName" : "My Trap section validations: Verify Apply Button.Given I am logged in as a user and navigated to Trap screen",
+  "historyId" : "6d45d64940bf3edf5d2e8be40bd4d88d",
+  "time" : {
+    "start" : 1669873895850,
+    "stop" : 1669873895851,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am logged in as a user and navigated to Trap screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97d224918684a5de.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

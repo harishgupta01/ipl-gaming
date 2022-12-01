@@ -1,0 +1,272 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669873976123' stop='1669874016562'>
+    <name>My Trap section validations: Verify trap check details screen elements</name>
+    <title>My Trap section validations: Verify trap check details screen elements</title>
+    <test-cases>
+        <test-case start='1669873976123' status='passed' stop='1669873976124'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873976124' status='passed' stop='1669873976127'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873976127' status='passed' stop='1669873992381'>
+            <name>When I click on a trap</name>
+            <title>When I click on a trap</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873990135' status='failed' stop='1669873990135'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873992380' status='passed' stop='1669873992380'>
+                    <name>Clicked on Element Trap Device</name>
+                    <title>Clicked on Element Trap Device</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873992381' status='passed' stop='1669873992382'>
+            <name>Then I should be navigated to trap check details screen</name>
+            <title>Then I should be navigated to trap check details screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873992382' status='passed' stop='1669873998400'>
+            <name>And should see Trap Name</name>
+            <title>And should see Trap Name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873996237' status='passed' stop='1669873996237'>
+                    <name>undefined Element is Displayed</name>
+                    <title>undefined Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873998399' status='passed' stop='1669873998399'>
+                    <name>Trap Name: BR_21_00567 is displayed</name>
+                    <title>Trap Name: BR_21_00567 is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873998400' status='passed' stop='1669874002948'>
+            <name>And Region name</name>
+            <title>And Region name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873999113' status='passed' stop='1669873999113'>
+                    <name>undefined Element is Displayed</name>
+                    <title>undefined Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874002947' status='passed' stop='1669874002948'>
+                    <name>Region Name: BAHIA TEST REGION is displayed</name>
+                    <title>Region Name: BAHIA TEST REGION is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a0e69840-c570-4f75-9574-1d9e4b687a56-attachment.png' type='image/png' size='174042'/>
+                <attachment title='Screenshot' source='80cd84ed-415f-4104-886a-400827c92a45-attachment.png' type='image/png' size='209673'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874002949' status='passed' stop='1669874006437'>
+            <name>And Insect and crop name</name>
+            <title>And Insect and crop name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874004634' status='passed' stop='1669874004634'>
+                    <name>Insect Name: Boll Weevil is displayed</name>
+                    <title>Insect Name: Boll Weevil is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874006437' status='passed' stop='1669874006437'>
+                    <name>Crop Name: Soy is displayed</name>
+                    <title>Crop Name: Soy is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='bd80aeca-df53-4021-887a-9af02fca3c71-attachment.png' type='image/png' size='174042'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874006438' status='passed' stop='1669874008082'>
+            <name>And Trap catches graph</name>
+            <title>And Trap catches graph</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874008082' status='passed' stop='1669874008082'>
+                    <name>Trap Catch Graph:  is displayed</name>
+                    <title>Trap Catch Graph:  is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874008082' status='passed' stop='1669874015153'>
+            <name>And Daily Avg and Actual count graph tab</name>
+            <title>And Daily Avg and Actual count graph tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874008830' status='passed' stop='1669874008830'>
+                    <name>Trap Name Element is Displayed</name>
+                    <title>Trap Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874009759' status='passed' stop='1669874009759'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874011345' status='passed' stop='1669874011345'>
+                    <name>Daily Avg Dropdown is displayed</name>
+                    <title>Daily Avg Dropdown is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874012467' status='passed' stop='1669874012467'>
+                    <name>Clicked on Element Daily Avg Dropdown</name>
+                    <title>Clicked on Element Daily Avg Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874013900' status='passed' stop='1669874013900'>
+                    <name>Daily Avg Dropdown Options is displayed</name>
+                    <title>Daily Avg Dropdown Options is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874015152' status='passed' stop='1669874015152'>
+                    <name>Clicked on Element Daily Avg Dropdown</name>
+                    <title>Clicked on Element Daily Avg Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='4956620e-cb93-44ee-88c9-55a2f40a7913-attachment.png' type='image/png' size='174042'/>
+                <attachment title='Screenshot' source='256bd824-ba77-47e2-8f5b-1e70b44ca925-attachment.png' type='image/png' size='174042'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874015153' status='passed' stop='1669874016561'>
+            <name>And trap image</name>
+            <title>And trap image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874016560' status='passed' stop='1669874016560'>
+                    <name>Insect Image is displayed</name>
+                    <title>Insect Image is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874016561' status='passed' stop='1669874016562'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

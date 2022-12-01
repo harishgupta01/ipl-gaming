@@ -1,0 +1,62 @@
+{
+  "uid" : "be67fdaf4a46d7ff",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "fullName" : "My Trap section validations: Verify Select Region from Trap tab.Given I am logged in as a user and navigated to Trap screen",
+  "historyId" : "7217cef5bebfb1f47f52e49f54b3cb62",
+  "time" : {
+    "start" : 1669873867994,
+    "stop" : 1669873867996,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am logged in as a user and navigated to Trap screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be67fdaf4a46d7ff.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

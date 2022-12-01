@@ -1,0 +1,108 @@
+{
+  "uid" : "3fca5a4f2a17b1aa",
+  "name" : "And Insect and crop name",
+  "fullName" : "My Trap section validations: Verify trap check details screen elements.And Insect and crop name",
+  "historyId" : "41eda73af10eb3bc3a667c0b1a5ac2c7",
+  "time" : {
+    "start" : 1669874002949,
+    "stop" : 1669874006437,
+    "duration" : 3488
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Insect Name: Boll Weevil is displayed",
+      "time" : {
+        "start" : 1669874004634,
+        "stop" : 1669874004634,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Crop Name: Soy is displayed",
+      "time" : {
+        "start" : 1669874006437,
+        "stop" : 1669874006437,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f057cb9da7b033a8",
+      "name" : "Screenshot",
+      "source" : "f057cb9da7b033a8.png",
+      "type" : "image/png",
+      "size" : 174042
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Insect and crop name"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fca5a4f2a17b1aa.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

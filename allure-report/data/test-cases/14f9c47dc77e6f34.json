@@ -1,0 +1,168 @@
+{
+  "uid" : "14f9c47dc77e6f34",
+  "name" : "Then Apply button should be disabled.",
+  "fullName" : "My Trap section validations: Verify Apply Button.Then Apply button should be disabled.",
+  "historyId" : "20a5f03cceebc069ab1f67005dedcbd5",
+  "time" : {
+    "start" : 1669873925439,
+    "stop" : 1669873928926,
+    "duration" : 3487
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Unselecting region",
+      "time" : {
+        "start" : 1669873927136,
+        "stop" : 1669873927136,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Unselecting region",
+      "time" : {
+        "start" : 1669873927639,
+        "stop" : 1669873927639,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Unselecting region",
+      "time" : {
+        "start" : 1669873927649,
+        "stop" : 1669873927649,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Unselecting region",
+      "time" : {
+        "start" : 1669873928282,
+        "stop" : 1669873928282,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Unselecting region",
+      "time" : {
+        "start" : 1669873928306,
+        "stop" : 1669873928306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Apply Button is Disabled",
+      "time" : {
+        "start" : 1669873928924,
+        "stop" : 1669873928924,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f6746447f01703df",
+      "name" : "Screenshot",
+      "source" : "f6746447f01703df.png",
+      "type" : "image/png",
+      "size" : 170268
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Apply button should be disabled."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14f9c47dc77e6f34.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

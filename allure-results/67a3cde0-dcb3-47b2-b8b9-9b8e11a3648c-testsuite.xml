@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669873895849' stop='1669873928930'>
+    <name>My Trap section validations: Verify Apply Button</name>
+    <title>My Trap section validations: Verify Apply Button</title>
+    <test-cases>
+        <test-case start='1669873895849' status='passed' stop='1669873895850'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873895850' status='passed' stop='1669873895851'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873895851' status='passed' stop='1669873925439'>
+            <name>When I Deselect all regions.</name>
+            <title>When I Deselect all regions.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873909862' status='failed' stop='1669873909862'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873911405' status='passed' stop='1669873911405'>
+                    <name>Clicked on Element Navigating to Region Selection Screen</name>
+                    <title>Clicked on Element Navigating to Region Selection Screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873925414' status='failed' stop='1669873925414'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ca8410ba-6736-42f3-abc0-791422caa14e-attachment.png' type='image/png' size='208695'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669873925439' status='passed' stop='1669873928926'>
+            <name>Then Apply button should be disabled.</name>
+            <title>Then Apply button should be disabled.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873927136' status='passed' stop='1669873927136'>
+                    <name>Clicked on Element Unselecting region</name>
+                    <title>Clicked on Element Unselecting region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873927639' status='passed' stop='1669873927639'>
+                    <name>Clicked on Element Unselecting region</name>
+                    <title>Clicked on Element Unselecting region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873927649' status='passed' stop='1669873927649'>
+                    <name>Clicked on Element Unselecting region</name>
+                    <title>Clicked on Element Unselecting region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873928282' status='passed' stop='1669873928282'>
+                    <name>Clicked on Element Unselecting region</name>
+                    <title>Clicked on Element Unselecting region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873928306' status='passed' stop='1669873928306'>
+                    <name>Clicked on Element Unselecting region</name>
+                    <title>Clicked on Element Unselecting region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873928924' status='passed' stop='1669873928924'>
+                    <name>Apply Button is Disabled</name>
+                    <title>Apply Button is Disabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0f841082-1f9d-47d4-9739-5416e49be1e7-attachment.png' type='image/png' size='170268'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669873928928' status='passed' stop='1669873928930'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

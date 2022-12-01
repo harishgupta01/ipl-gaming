@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874016578' stop='1669874057780'>
+    <name>My Trap section validations: Verify count drop down</name>
+    <title>My Trap section validations: Verify count drop down</title>
+    <test-cases>
+        <test-case start='1669874016578' status='passed' stop='1669874016578'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874016578' status='passed' stop='1669874016580'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874016580' status='passed' stop='1669874040813'>
+            <name>When Trap Detail page is open, Actual count is selected by default</name>
+            <title>When Trap Detail page is open, Actual count is selected by default</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874017800' status='passed' stop='1669874017800'>
+                    <name>Clicked on Element Trap Tab</name>
+                    <title>Clicked on Element Trap Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874031806' status='failed' stop='1669874031806'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874033695' status='passed' stop='1669874033695'>
+                    <name>Clicked on Element Trap Device</name>
+                    <title>Clicked on Element Trap Device</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874034601' status='passed' stop='1669874034601'>
+                    <name>Trap Name Element is Displayed</name>
+                    <title>Trap Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874035611' status='passed' stop='1669874035611'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874037133' status='passed' stop='1669874037133'>
+                    <name>Daily Avg Dropdown is displayed</name>
+                    <title>Daily Avg Dropdown is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874038161' status='passed' stop='1669874038161'>
+                    <name>Clicked on Element Daily Avg Dropdown</name>
+                    <title>Clicked on Element Daily Avg Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874039741' status='passed' stop='1669874039741'>
+                    <name>Daily Avg Dropdown Options is displayed</name>
+                    <title>Daily Avg Dropdown Options is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874040810' status='passed' stop='1669874040810'>
+                    <name>Clicked on Element Daily Avg Dropdown</name>
+                    <title>Clicked on Element Daily Avg Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1d5852ef-24f8-4893-8183-936fb7c2f171-attachment.png' type='image/png' size='207798'/>
+                <attachment title='Screenshot' source='1ead7cc1-91c8-43e3-988b-73e7b6166478-attachment.png' type='image/png' size='173989'/>
+                <attachment title='Screenshot' source='1a7449a8-48a2-43da-b286-71c66f96be4c-attachment.png' type='image/png' size='174053'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874040813' status='passed' stop='1669874057777'>
+            <name>Then I should be able to select cumulative count from the drop down</name>
+            <title>Then I should be able to select cumulative count from the drop down</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874042420' status='passed' stop='1669874042420'>
+                    <name>Clicked on Element Daily Avg Dropdown</name>
+                    <title>Clicked on Element Daily Avg Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874056428' status='failed' stop='1669874056428'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874057776' status='passed' stop='1669874057776'>
+                    <name>Clicked on Element Cumulative Dropdown</name>
+                    <title>Clicked on Element Cumulative Dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874057778' status='passed' stop='1669874057780'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

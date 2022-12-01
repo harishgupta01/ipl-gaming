@@ -1,0 +1,70 @@
+{
+  "uid" : "424d5bc445648d83",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify Select Region from Trap tab.",
+  "historyId" : "3d8f1e60391d4b51504876f051042c1c",
+  "time" : {
+    "start" : 1669873895833,
+    "stop" : 1669873895833,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dab5125596f7a6e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669873867994,
+        "stop" : 1669873867994,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "424d5bc445648d83.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

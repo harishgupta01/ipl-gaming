@@ -1,0 +1,102 @@
+{
+  "uid" : "9d8475121c37203c",
+  "name" : "And X button to close the image",
+  "fullName" : "My Trap section validations: Open trap check image.And X button to close the image",
+  "historyId" : "aee9e76bead1708987d917ad05839aa0",
+  "time" : {
+    "start" : 1669874118280,
+    "stop" : 1669874120772,
+    "duration" : 2492
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Close Image Button is displayed",
+      "time" : {
+        "start" : 1669874119716,
+        "stop" : 1669874119716,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Close Image Button",
+      "time" : {
+        "start" : 1669874120771,
+        "stop" : 1669874120771,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "And X button to close the image"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d8475121c37203c.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

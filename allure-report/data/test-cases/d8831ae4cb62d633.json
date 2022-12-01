@@ -1,0 +1,225 @@
+{
+  "uid" : "d8831ae4cb62d633",
+  "name" : "When Trap Detail page is open, Actual count is selected by default",
+  "fullName" : "My Trap section validations: Verify count drop down.When Trap Detail page is open, Actual count is selected by default",
+  "historyId" : "f583eed0276d84567a7ca23b0b835b55",
+  "time" : {
+    "start" : 1669874016580,
+    "stop" : 1669874040813,
+    "duration" : 24233
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Trap Tab",
+      "time" : {
+        "start" : 1669874017800,
+        "stop" : 1669874017800,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669874031806,
+        "stop" : 1669874031806,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Trap Device",
+      "time" : {
+        "start" : 1669874033695,
+        "stop" : 1669874033695,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Trap Name Element is Displayed",
+      "time" : {
+        "start" : 1669874034601,
+        "stop" : 1669874034601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874035611,
+        "stop" : 1669874035611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Daily Avg Dropdown is displayed",
+      "time" : {
+        "start" : 1669874037133,
+        "stop" : 1669874037133,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Daily Avg Dropdown",
+      "time" : {
+        "start" : 1669874038161,
+        "stop" : 1669874038161,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Daily Avg Dropdown Options is displayed",
+      "time" : {
+        "start" : 1669874039741,
+        "stop" : 1669874039741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Daily Avg Dropdown",
+      "time" : {
+        "start" : 1669874040810,
+        "stop" : 1669874040810,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ae8c5c1f35e7e62f",
+      "name" : "Screenshot",
+      "source" : "ae8c5c1f35e7e62f.png",
+      "type" : "image/png",
+      "size" : 207798
+    }, {
+      "uid" : "b4a1d222c55fab26",
+      "name" : "Screenshot",
+      "source" : "b4a1d222c55fab26.png",
+      "type" : "image/png",
+      "size" : 173989
+    }, {
+      "uid" : "4879a7cafdd35469",
+      "name" : "Screenshot",
+      "source" : "4879a7cafdd35469.png",
+      "type" : "image/png",
+      "size" : 174053
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Trap Detail page is open, Actual count is selected by default"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8831ae4cb62d633.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

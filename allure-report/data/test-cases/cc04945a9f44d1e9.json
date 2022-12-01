@@ -1,0 +1,70 @@
+{
+  "uid" : "cc04945a9f44d1e9",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify select all button.",
+  "historyId" : "ef0bc351d4f67c0e60d442192a1da0a7",
+  "time" : {
+    "start" : 1669873976114,
+    "stop" : 1669873976114,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d4ec2052214594db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669873947166,
+        "stop" : 1669873947167,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc04945a9f44d1e9.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

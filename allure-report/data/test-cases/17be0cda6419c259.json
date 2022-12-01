@@ -1,0 +1,117 @@
+{
+  "uid" : "17be0cda6419c259",
+  "name" : "Then i should see crop, pest name",
+  "fullName" : "My Trap section validations: Expand region sections.Then i should see crop, pest name",
+  "historyId" : "a6ffae93d3c3a65437287e16f8615220",
+  "time" : {
+    "start" : 1669874237287,
+    "stop" : 1669874241248,
+    "duration" : 3961
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Region Name is displayed",
+      "time" : {
+        "start" : 1669874239052,
+        "stop" : 1669874239052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Crop Name is displayed",
+      "time" : {
+        "start" : 1669874240016,
+        "stop" : 1669874240016,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Pest Name is displayed",
+      "time" : {
+        "start" : 1669874241247,
+        "stop" : 1669874241247,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then i should see crop, pest name"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17be0cda6419c259.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

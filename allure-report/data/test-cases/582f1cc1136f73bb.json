@@ -1,0 +1,147 @@
+{
+  "uid" : "582f1cc1136f73bb",
+  "name" : "And List of regions should be displayed.",
+  "fullName" : "My Trap section validations: Verify Select Region from Trap tab.And List of regions should be displayed.",
+  "historyId" : "4e6b989988927b4f12ea4322a27f0edb",
+  "time" : {
+    "start" : 1669873888459,
+    "stop" : 1669873892470,
+    "duration" : 4011
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Regions is displayed",
+      "time" : {
+        "start" : 1669873889687,
+        "stop" : 1669873889687,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Regions is displayed",
+      "time" : {
+        "start" : 1669873890376,
+        "stop" : 1669873890376,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Regions is displayed",
+      "time" : {
+        "start" : 1669873891026,
+        "stop" : 1669873891026,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Regions is displayed",
+      "time" : {
+        "start" : 1669873891806,
+        "stop" : 1669873891806,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Regions is displayed",
+      "time" : {
+        "start" : 1669873892469,
+        "stop" : 1669873892469,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "And List of regions should be displayed."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "582f1cc1136f73bb.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

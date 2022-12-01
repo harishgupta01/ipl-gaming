@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874246863' stop='1669874265072'>
+    <name>My Trap section validations: Verify Remove region from slider on Trap tab</name>
+    <title>My Trap section validations: Verify Remove region from slider on Trap tab</title>
+    <test-cases>
+        <test-case start='1669874246863' status='passed' stop='1669874246863'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874246863' status='passed' stop='1669874246866'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874246866' status='passed' stop='1669874265068'>
+            <name>When I click on X button to remove the regions.</name>
+            <title>When I click on X button to remove the regions.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874248532' status='passed' stop='1669874248532'>
+                    <name>Select Region Button is displayed</name>
+                    <title>Select Region Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874249859' status='passed' stop='1669874249859'>
+                    <name>Remove Region Button is displayed</name>
+                    <title>Remove Region Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874251058' status='passed' stop='1669874251058'>
+                    <name>Clicked on Element Remove Region Button</name>
+                    <title>Clicked on Element Remove Region Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874265065' status='failed' stop='1669874265065'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874265068' status='passed' stop='1669874265070'>
+            <name>Then Region should be removed from the slider.</name>
+            <title>Then Region should be removed from the slider.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874265069' status='passed' stop='1669874265069'>
+                    <name>Remove Region Button is not displayed</name>
+                    <title>Remove Region Button is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874265070' status='passed' stop='1669874265072'>
+            <name>And Removed region should not be displayed in the slider and on a screen.</name>
+            <title>And Removed region should not be displayed in the slider and on a screen.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874265070' status='passed' stop='1669874265070'>
+                    <name>Select Region Button is not displayed</name>
+                    <title>Select Region Button is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874265071' status='passed' stop='1669874265071'>
+                    <name>Region Name is not displayed</name>
+                    <title>Region Name is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874265072' status='passed' stop='1669874265072'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

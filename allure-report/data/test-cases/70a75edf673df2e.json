@@ -1,0 +1,60 @@
+{
+  "uid" : "70a75edf673df2e",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify Remove region from slider on Trap tab.",
+  "historyId" : "2cc7de247fb7cd8631b964a5fe1f11e8",
+  "time" : {
+    "start" : 1669874246863,
+    "stop" : 1669874246863,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70a75edf673df2e.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

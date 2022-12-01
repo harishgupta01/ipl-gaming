@@ -1,0 +1,87 @@
+{
+  "uid" : "f391bf79c51a5bc2",
+  "name" : "And Click on Apply button.",
+  "fullName" : "My Trap section validations: Verify select all button.And Click on Apply button.",
+  "historyId" : "9cc71bb94e48d2b732bfb49b3f7eecfb",
+  "time" : {
+    "start" : 1669873968982,
+    "stop" : 1669873970926,
+    "duration" : 1944
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Click Apply Button",
+      "time" : {
+        "start" : 1669873970925,
+        "stop" : 1669873970925,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Click on Apply button."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f391bf79c51a5bc2.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

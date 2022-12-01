@@ -1,0 +1,70 @@
+{
+  "uid" : "643c47dad225fc7d",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify Add & Remove.",
+  "historyId" : "47da7121657500780918a8d81efa2d51",
+  "time" : {
+    "start" : 1669873947156,
+    "stop" : 1669873947156,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56d5237c35eb50ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669873928942,
+        "stop" : 1669873928943,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "643c47dad225fc7d.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

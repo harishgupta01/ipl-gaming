@@ -1,0 +1,87 @@
+{
+  "uid" : "413cbcab742d5ec7",
+  "name" : "And Daily Avg",
+  "fullName" : "My Trap section validations: Open trap check image.And Daily Avg",
+  "historyId" : "6b0a925144925eb01624e187f65fd1c4",
+  "time" : {
+    "start" : 1669874113040,
+    "stop" : 1669874114366,
+    "duration" : 1326
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Daily Avg is displayed",
+      "time" : {
+        "start" : 1669874114366,
+        "stop" : 1669874114366,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Daily Avg"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "413cbcab742d5ec7.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

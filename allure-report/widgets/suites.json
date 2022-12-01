@@ -1,0 +1,114 @@
+{
+  "total" : 14,
+  "items" : [ {
+    "uid" : "3f68bbf8618b840a8196e8526214f899",
+    "name" : "My Trap section validations: Verify trap check details screen elements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "d925bce0f0dd1099fad26ea3b8e41832",
+    "name" : "My Trap section validations: Open trap check image",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "c1ae178bb2630696296081435a1e6831",
+    "name" : "My Trap section validations: Verify My Traps screen elements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "53aa974e4110329b3640db1146b81e8b",
+    "name" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "938f3e8d907b3d8d6aea4bf65e9f0833",
+    "name" : "My Trap section validations: Check previous and next trap check image",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "f411605dd05ceb4fb42ad2cea1df479e",
+    "name" : "My Trap section validations: Verify Select Region from Trap tab",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "8f81a55bcd90cf2ba73423d9ac9684f1",
+    "name" : "My Trap section validations: Verify Add & Remove",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "b01ba197b63ae6626963449e0992b595",
+    "name" : "My Trap section validations: Expand region sections",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "278998bf28da7d6f05d883fefc004c43",
+    "name" : "My Trap section validations: Verify select all button",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "800f06ac6e18c0deb0f1a27deffbc595",
+    "name" : "My Trap section validations: Collapse region sections",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

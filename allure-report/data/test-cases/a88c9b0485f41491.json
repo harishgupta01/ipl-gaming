@@ -1,0 +1,87 @@
+{
+  "uid" : "a88c9b0485f41491",
+  "name" : "And I should able to sort trap details when click on Pest count column",
+  "fullName" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date.And I should able to sort trap details when click on Pest count column",
+  "historyId" : "8e51387368c09f9bfb60c0a018d73fd6",
+  "time" : {
+    "start" : 1669873862439,
+    "stop" : 1669873864205,
+    "duration" : 1766
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Insects",
+      "time" : {
+        "start" : 1669873864203,
+        "stop" : 1669873864203,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I should able to sort trap details when click on Pest count column"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a88c9b0485f41491.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

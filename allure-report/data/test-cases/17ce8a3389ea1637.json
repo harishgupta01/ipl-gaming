@@ -1,0 +1,138 @@
+{
+  "uid" : "17ce8a3389ea1637",
+  "name" : "Then I zoom out the image, I should see the smaller and farther details in a image",
+  "fullName" : "My Trap section validations: Zoom the trap check image.Then I zoom out the image, I should see the smaller and farther details in a image",
+  "historyId" : "17cc3c51ebc3c8c7d14f41e9add5f460",
+  "time" : {
+    "start" : 1669874158754,
+    "stop" : 1669874166378,
+    "duration" : 7624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Back Button Element is Displayed",
+      "time" : {
+        "start" : 1669874160468,
+        "stop" : 1669874160468,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Minimize Button",
+      "time" : {
+        "start" : 1669874163338,
+        "stop" : 1669874163338,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Close Image Button Element is Displayed",
+      "time" : {
+        "start" : 1669874164662,
+        "stop" : 1669874164662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Close Image Button",
+      "time" : {
+        "start" : 1669874166378,
+        "stop" : 1669874166378,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f87409ca0ccd6438",
+      "name" : "Screenshot",
+      "source" : "f87409ca0ccd6438.png",
+      "type" : "image/png",
+      "size" : 1962838
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I zoom out the image, I should see the smaller and farther details in a image"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17ce8a3389ea1637.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669873831663' stop='1669873867981'>
+    <name>My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date</name>
+    <title>My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date</title>
+    <test-cases>
+        <test-case start='1669873831663' status='passed' stop='1669873831663'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873831663' status='passed' stop='1669873831664'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873831664' status='passed' stop='1669873846561'>
+            <name>When I see Trap details</name>
+            <title>When I see Trap details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873832554' status='passed' stop='1669873832554'>
+                    <name>undefined Element is Displayed</name>
+                    <title>undefined Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873846558' status='failed' stop='1669873846558'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b6816d3a-057d-4f88-82ea-c80a8870cfae-attachment.png' type='image/png' size='207660'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669873846561' status='passed' stop='1669873862439'>
+            <name>Then I should be able to sort trap details when click on Status column</name>
+            <title>Then I should be able to sort trap details when click on Status column</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873860568' status='failed' stop='1669873860568'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873862435' status='passed' stop='1669873862435'>
+                    <name>Clicked on Element Status</name>
+                    <title>Clicked on Element Status</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ca86c988-d384-456b-86fb-cabd22450d61-attachment.png' type='image/png' size='207660'/>
+                <attachment title='Screenshot' source='6ac24499-8b78-44f8-a373-9891d473fa58-attachment.png' type='image/png' size='206903'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669873862439' status='passed' stop='1669873864205'>
+            <name>And I should able to sort trap details when click on Pest count column</name>
+            <title>And I should able to sort trap details when click on Pest count column</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873864203' status='passed' stop='1669873864203'>
+                    <name>Clicked on Element Insects</name>
+                    <title>Clicked on Element Insects</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873864205' status='passed' stop='1669873866104'>
+            <name>And I should able to sort trap details when click on Name column</name>
+            <title>And I should able to sort trap details when click on Name column</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873866103' status='passed' stop='1669873866103'>
+                    <name>Clicked on Element Trap Name</name>
+                    <title>Clicked on Element Trap Name</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873866104' status='passed' stop='1669873867980'>
+            <name>And I should able to sort trap details when click on Updated column</name>
+            <title>And I should able to sort trap details when click on Updated column</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873867979' status='passed' stop='1669873867979'>
+                    <name>Clicked on Element Updated Date</name>
+                    <title>Clicked on Element Updated Date</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873867980' status='passed' stop='1669873867981'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,87 @@
+{
+  "uid" : "bc4eaf29cbd86bfb",
+  "name" : "And I should see current image, total images in between Next and Previous buttons",
+  "fullName" : "My Trap section validations: Check previous and next trap check image.And I should see current image, total images in between Next and Previous buttons",
+  "historyId" : "138c192b056a8e7a115ea94ff068b40f",
+  "time" : {
+    "start" : 1669874205513,
+    "stop" : 1669874206718,
+    "duration" : 1205
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Current Total Images Count is displayed",
+      "time" : {
+        "start" : 1669874206716,
+        "stop" : 1669874206717,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I should see current image, total images in between Next and Previous buttons"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc4eaf29cbd86bfb.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

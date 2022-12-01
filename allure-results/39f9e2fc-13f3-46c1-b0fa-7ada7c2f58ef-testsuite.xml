@@ -1,0 +1,213 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669873867994' stop='1669873895834'>
+    <name>My Trap section validations: Verify Select Region from Trap tab</name>
+    <title>My Trap section validations: Verify Select Region from Trap tab</title>
+    <test-cases>
+        <test-case start='1669873867994' status='passed' stop='1669873867994'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873867994' status='passed' stop='1669873867996'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873867996' status='passed' stop='1669873886316'>
+            <name>When I click On region selection icon Select Region screen should be displayed.</name>
+            <title>When I click On region selection icon Select Region screen should be displayed.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873882001' status='failed' stop='1669873882001'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873883451' status='passed' stop='1669873883451'>
+                    <name>Clicked on Element Navigating to Region Selection Screen</name>
+                    <title>Clicked on Element Navigating to Region Selection Screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873885286' status='passed' stop='1669873885286'>
+                    <name>Region Selection Screen is displayed</name>
+                    <title>Region Selection Screen is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873886315' status='passed' stop='1669873886315'>
+                    <name>Show All Regions Button is displayed</name>
+                    <title>Show All Regions Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='350ae538-f615-40aa-8355-8e95d656917d-attachment.png' type='image/png' size='208695'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669873886316' status='passed' stop='1669873888459'>
+            <name>Then Show All Regions button should be displayed.</name>
+            <title>Then Show All Regions button should be displayed.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873887270' status='passed' stop='1669873887270'>
+                    <name>Show all region Button is displayed</name>
+                    <title>Show all region Button is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873888457' status='passed' stop='1669873888457'>
+                    <name>List of all regions is displayed</name>
+                    <title>List of all regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873888459' status='passed' stop='1669873892470'>
+            <name>And List of regions should be displayed.</name>
+            <title>And List of regions should be displayed.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873889687' status='passed' stop='1669873889687'>
+                    <name>Regions is displayed</name>
+                    <title>Regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873890376' status='passed' stop='1669873890376'>
+                    <name>Regions is displayed</name>
+                    <title>Regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873891026' status='passed' stop='1669873891026'>
+                    <name>Regions is displayed</name>
+                    <title>Regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873891806' status='passed' stop='1669873891806'>
+                    <name>Regions is displayed</name>
+                    <title>Regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873892469' status='passed' stop='1669873892469'>
+                    <name>Regions is displayed</name>
+                    <title>Regions is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873892470' status='passed' stop='1669873895832'>
+            <name>And By default all of the regions should be selected.</name>
+            <title>And By default all of the regions should be selected.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669873893147' status='passed' stop='1669873893147'>
+                    <name>Region List is Enabled</name>
+                    <title>Region List is Enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873893455' status='passed' stop='1669873893455'>
+                    <name>Region List is Enabled</name>
+                    <title>Region List is Enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873893796' status='passed' stop='1669873893796'>
+                    <name>Region List is Enabled</name>
+                    <title>Region List is Enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873894112' status='passed' stop='1669873894112'>
+                    <name>Region List is Enabled</name>
+                    <title>Region List is Enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873894500' status='passed' stop='1669873894500'>
+                    <name>Region List is Enabled</name>
+                    <title>Region List is Enabled</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669873895831' status='passed' stop='1669873895831'>
+                    <name>Clicked on Element Close region selection screen</name>
+                    <title>Clicked on Element Close region selection screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669873895833' status='passed' stop='1669873895833'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

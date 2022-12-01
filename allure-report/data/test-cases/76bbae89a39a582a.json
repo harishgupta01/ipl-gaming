@@ -1,0 +1,228 @@
+{
+  "uid" : "76bbae89a39a582a",
+  "name" : "When i click on the trap check image",
+  "fullName" : "My Trap section validations: Check previous and next trap check image.When i click on the trap check image",
+  "historyId" : "62a487b48dfe13e0ec0388f0aac691a0",
+  "time" : {
+    "start" : 1669874166385,
+    "stop" : 1669874202866,
+    "duration" : 36481
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Trap Tab",
+      "time" : {
+        "start" : 1669874167690,
+        "stop" : 1669874167690,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669874181696,
+        "stop" : 1669874181696,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Trap Device",
+      "time" : {
+        "start" : 1669874183447,
+        "stop" : 1669874183447,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Trap Name Element is Displayed",
+      "time" : {
+        "start" : 1669874184624,
+        "stop" : 1669874184624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874185663,
+        "stop" : 1669874185663,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874186913,
+        "stop" : 1669874186913,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669874200916,
+        "stop" : 1669874200916,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Insect Image",
+      "time" : {
+        "start" : 1669874202864,
+        "stop" : 1669874202864,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "824eb5a143bc4c1b",
+      "name" : "Screenshot",
+      "source" : "824eb5a143bc4c1b.png",
+      "type" : "image/png",
+      "size" : 709808
+    }, {
+      "uid" : "f4bd880b6ef104b9",
+      "name" : "Screenshot",
+      "source" : "f4bd880b6ef104b9.png",
+      "type" : "image/png",
+      "size" : 207816
+    }, {
+      "uid" : "e4592ae637af33e9",
+      "name" : "Screenshot",
+      "source" : "e4592ae637af33e9.png",
+      "type" : "image/png",
+      "size" : 170244
+    }, {
+      "uid" : "b9342f6969b861c4",
+      "name" : "Screenshot",
+      "source" : "b9342f6969b861c4.png",
+      "type" : "image/png",
+      "size" : 170218
+    }, {
+      "uid" : "1b907727bba0af3b",
+      "name" : "Screenshot",
+      "source" : "1b907727bba0af3b.png",
+      "type" : "image/png",
+      "size" : 170218
+    }, {
+      "uid" : "affc65a160e25331",
+      "name" : "Screenshot",
+      "source" : "affc65a160e25331.png",
+      "type" : "image/png",
+      "size" : 170218
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i click on the trap check image"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76bbae89a39a582a.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

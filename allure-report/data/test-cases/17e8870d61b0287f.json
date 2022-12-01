@@ -1,0 +1,87 @@
+{
+  "uid" : "17e8870d61b0287f",
+  "name" : "Then Trap check image should display Trap name - Date of trap check",
+  "fullName" : "My Trap section validations: Open trap check image.Then Trap check image should display Trap name - Date of trap check",
+  "historyId" : "68b54e048df7c6bd9591379308d1b0c",
+  "time" : {
+    "start" : 1669874109438,
+    "stop" : 1669874111119,
+    "duration" : 1681
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Name of Selected Trap is displayed",
+      "time" : {
+        "start" : 1669874111118,
+        "stop" : 1669874111118,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Trap check image should display Trap name - Date of trap check"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Open trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17e8870d61b0287f.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

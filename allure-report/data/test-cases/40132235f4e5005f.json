@@ -1,0 +1,147 @@
+{
+  "uid" : "40132235f4e5005f",
+  "name" : "And I should view different trap check images by clicking on next and previous button",
+  "fullName" : "My Trap section validations: Check previous and next trap check image.And I should view different trap check images by clicking on next and previous button",
+  "historyId" : "4ca3cbb18c7788b26c2adb763c3eaf66",
+  "time" : {
+    "start" : 1669874206718,
+    "stop" : 1669874214848,
+    "duration" : 8130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Previous image button",
+      "time" : {
+        "start" : 1669874207924,
+        "stop" : 1669874207924,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Next image button",
+      "time" : {
+        "start" : 1669874209980,
+        "stop" : 1669874209980,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Previous image button",
+      "time" : {
+        "start" : 1669874211718,
+        "stop" : 1669874211718,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Close Image Button is displayed",
+      "time" : {
+        "start" : 1669874213616,
+        "stop" : 1669874213616,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Close Image Button",
+      "time" : {
+        "start" : 1669874214847,
+        "stop" : 1669874214847,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I should view different trap check images by clicking on next and previous button"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40132235f4e5005f.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

@@ -1,0 +1,165 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874120782' stop='1669874166379'>
+    <name>My Trap section validations: Zoom the trap check image</name>
+    <title>My Trap section validations: Zoom the trap check image</title>
+    <test-cases>
+        <test-case start='1669874120782' status='passed' stop='1669874120782'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874120782' status='passed' stop='1669874120783'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874120783' status='passed' stop='1669874158754'>
+            <name>When I zoom in the image, I should see the bigger and closer details</name>
+            <title>When I zoom in the image, I should see the bigger and closer details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874122063' status='passed' stop='1669874122063'>
+                    <name>Clicked on Element Trap Tab</name>
+                    <title>Clicked on Element Trap Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874136067' status='failed' stop='1669874136067'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874137703' status='passed' stop='1669874137703'>
+                    <name>Clicked on Element Trap Device</name>
+                    <title>Clicked on Element Trap Device</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874138879' status='passed' stop='1669874138879'>
+                    <name>Trap Name Element is Displayed</name>
+                    <title>Trap Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874140086' status='passed' stop='1669874140086'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874140970' status='passed' stop='1669874140970'>
+                    <name>Insect Name Element is Displayed</name>
+                    <title>Insect Name Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874154971' status='failed' stop='1669874154971'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874156602' status='passed' stop='1669874156602'>
+                    <name>Clicked on Element Insect Image</name>
+                    <title>Clicked on Element Insect Image</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874158753' status='passed' stop='1669874158753'>
+                    <name>Clicked on Element Image Enlarge Button</name>
+                    <title>Clicked on Element Image Enlarge Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fb7a8645-2f67-4db0-8982-9c3dac75897e-attachment.png' type='image/png' size='206858'/>
+                <attachment title='Screenshot' source='ca6fab61-e298-41b0-8999-376c427db54e-attachment.png' type='image/png' size='169263'/>
+                <attachment title='Screenshot' source='1d8d7bb1-d5bc-4ad4-89ce-551b7e0d3b78-attachment.png' type='image/png' size='169233'/>
+                <attachment title='Screenshot' source='498afb4e-f101-4264-ab72-085401b60e0b-attachment.png' type='image/png' size='169233'/>
+                <attachment title='Screenshot' source='f6223079-07f5-4402-afbf-bc48175a1bd6-attachment.png' type='image/png' size='169233'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874158754' status='passed' stop='1669874166378'>
+            <name>Then I zoom out the image, I should see the smaller and farther details in a image</name>
+            <title>Then I zoom out the image, I should see the smaller and farther details in a image</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874160468' status='passed' stop='1669874160468'>
+                    <name>Back Button Element is Displayed</name>
+                    <title>Back Button Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874163338' status='passed' stop='1669874163338'>
+                    <name>Clicked on Element Minimize Button</name>
+                    <title>Clicked on Element Minimize Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874164662' status='passed' stop='1669874164662'>
+                    <name>Close Image Button Element is Displayed</name>
+                    <title>Close Image Button Element is Displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874166378' status='passed' stop='1669874166378'>
+                    <name>Clicked on Element Close Image Button</name>
+                    <title>Clicked on Element Close Image Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='83ccae96-7d7c-4285-9314-37d5b52c3889-attachment.png' type='image/png' size='1962838'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874166379' status='passed' stop='1669874166379'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

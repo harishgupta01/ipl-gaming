@@ -1,0 +1,162 @@
+{
+  "uid" : "997cb461450fe2",
+  "name" : "And By default all of the regions should be selected.",
+  "fullName" : "My Trap section validations: Verify Select Region from Trap tab.And By default all of the regions should be selected.",
+  "historyId" : "1bf2f63822b06decd5869c7a1369c577",
+  "time" : {
+    "start" : 1669873892470,
+    "stop" : 1669873895832,
+    "duration" : 3362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Region List is Enabled",
+      "time" : {
+        "start" : 1669873893147,
+        "stop" : 1669873893147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region List is Enabled",
+      "time" : {
+        "start" : 1669873893455,
+        "stop" : 1669873893455,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region List is Enabled",
+      "time" : {
+        "start" : 1669873893796,
+        "stop" : 1669873893796,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region List is Enabled",
+      "time" : {
+        "start" : 1669873894112,
+        "stop" : 1669873894112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region List is Enabled",
+      "time" : {
+        "start" : 1669873894500,
+        "stop" : 1669873894500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Close region selection screen",
+      "time" : {
+        "start" : 1669873895831,
+        "stop" : 1669873895831,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "And By default all of the regions should be selected."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "997cb461450fe2.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

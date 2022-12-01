@@ -1,0 +1,147 @@
+{
+  "uid" : "20f1e25f6a30d604",
+  "name" : "And the detail table is seen with status, pest count, trap name and updated date columns",
+  "fullName" : "My Trap section validations: Verify My Traps screen elements.And the detail table is seen with status, pest count, trap name and updated date columns",
+  "historyId" : "81ccd9f37c2ccc2c654f24a79fec8be8",
+  "time" : {
+    "start" : 1669873825600,
+    "stop" : 1669873831639,
+    "duration" : 6039
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Pest Count is displayed",
+      "time" : {
+        "start" : 1669873826621,
+        "stop" : 1669873826621,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status is displayed",
+      "time" : {
+        "start" : 1669873827675,
+        "stop" : 1669873827675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insects is displayed",
+      "time" : {
+        "start" : 1669873828969,
+        "stop" : 1669873828969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Trap Name is displayed",
+      "time" : {
+        "start" : 1669873830147,
+        "stop" : 1669873830147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Updated Date is displayed",
+      "time" : {
+        "start" : 1669873831639,
+        "stop" : 1669873831639,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the detail table is seen with status, pest count, trap name and updated date columns"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20f1e25f6a30d604.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

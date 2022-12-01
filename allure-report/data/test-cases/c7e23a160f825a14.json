@@ -1,0 +1,108 @@
+{
+  "uid" : "c7e23a160f825a14",
+  "name" : "Then all region should get added.",
+  "fullName" : "My Trap section validations: Verify select all button.Then all region should get added.",
+  "historyId" : "7731096015155778a3383213c9bf986e",
+  "time" : {
+    "start" : 1669873970926,
+    "stop" : 1669873976113,
+    "duration" : 5187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Selected region is displayed",
+      "time" : {
+        "start" : 1669873972609,
+        "stop" : 1669873972609,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Selected region is displayed",
+      "time" : {
+        "start" : 1669873976112,
+        "stop" : 1669873976112,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c7fedd14bc8fc86d",
+      "name" : "Screenshot",
+      "source" : "c7fedd14bc8fc86d.png",
+      "type" : "image/png",
+      "size" : 194940
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then all region should get added."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7e23a160f825a14.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

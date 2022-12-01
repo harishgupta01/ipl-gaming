@@ -1,0 +1,87 @@
+{
+  "uid" : "fba7b516e710e31d",
+  "name" : "When I collapse the region",
+  "fullName" : "My Trap section validations: Collapse region sections.When I collapse the region",
+  "historyId" : "af270f4034328bc059e8b1c6831cb0f2",
+  "time" : {
+    "start" : 1669874214863,
+    "stop" : 1669874216377,
+    "duration" : 1514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Trap Tab",
+      "time" : {
+        "start" : 1669874216376,
+        "stop" : 1669874216376,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I collapse the region"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fba7b516e710e31d.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "5eae7387bc67f91d",
+  "name" : "And Region name",
+  "fullName" : "My Trap section validations: Verify trap check details screen elements.And Region name",
+  "historyId" : "bce1676ab86784833eb7238e7bc8c120",
+  "time" : {
+    "start" : 1669873998400,
+    "stop" : 1669874002948,
+    "duration" : 4548
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined Element is Displayed",
+      "time" : {
+        "start" : 1669873999113,
+        "stop" : 1669873999113,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region Name: BAHIA TEST REGION is displayed",
+      "time" : {
+        "start" : 1669874002947,
+        "stop" : 1669874002948,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8c7d7f8f60eefa10",
+      "name" : "Screenshot",
+      "source" : "8c7d7f8f60eefa10.png",
+      "type" : "image/png",
+      "size" : 174042
+    }, {
+      "uid" : "d7b02adad60d3d9f",
+      "name" : "Screenshot",
+      "source" : "d7b02adad60d3d9f.png",
+      "type" : "image/png",
+      "size" : 209673
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Region name"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5eae7387bc67f91d.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "dcbcc4f7b3cacc44",
+  "name" : "And The region slider with the regions which are assigned to the user",
+  "fullName" : "My Trap section validations: Verify My Traps screen elements.And The region slider with the regions which are assigned to the user",
+  "historyId" : "500c738a1612a9080cb8370219098f98",
+  "time" : {
+    "start" : 1669873816963,
+    "stop" : 1669873819039,
+    "duration" : 2076
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Region Slider is displayed",
+      "time" : {
+        "start" : 1669873819037,
+        "stop" : 1669873819037,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "55fd26a79c72541d",
+      "name" : "Screenshot",
+      "source" : "55fd26a79c72541d.png",
+      "type" : "image/png",
+      "size" : 207660
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And The region slider with the regions which are assigned to the user"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcbcc4f7b3cacc44.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

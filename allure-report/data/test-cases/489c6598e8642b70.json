@@ -1,0 +1,70 @@
+{
+  "uid" : "489c6598e8642b70",
+  "name" : "",
+  "fullName" : "My Trap section validations: Check previous and next trap check image.",
+  "historyId" : "7ea88378e1ad97a6759d810e8a44a211",
+  "time" : {
+    "start" : 1669874214848,
+    "stop" : 1669874214848,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Check previous and next trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee6eb57cf47779c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669874166384,
+        "stop" : 1669874166384,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "489c6598e8642b70.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

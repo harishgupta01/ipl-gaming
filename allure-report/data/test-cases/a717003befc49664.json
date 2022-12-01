@@ -1,0 +1,237 @@
+{
+  "uid" : "a717003befc49664",
+  "name" : "When I zoom in the image, I should see the bigger and closer details",
+  "fullName" : "My Trap section validations: Zoom the trap check image.When I zoom in the image, I should see the bigger and closer details",
+  "historyId" : "d2d83038b21699a6c9006046c1fbd023",
+  "time" : {
+    "start" : 1669874120783,
+    "stop" : 1669874158754,
+    "duration" : 37971
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Element Trap Tab",
+      "time" : {
+        "start" : 1669874122063,
+        "stop" : 1669874122063,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669874136067,
+        "stop" : 1669874136067,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Trap Device",
+      "time" : {
+        "start" : 1669874137703,
+        "stop" : 1669874137703,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Trap Name Element is Displayed",
+      "time" : {
+        "start" : 1669874138879,
+        "stop" : 1669874138879,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874140086,
+        "stop" : 1669874140086,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874140970,
+        "stop" : 1669874140970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669874154971,
+        "stop" : 1669874154971,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Insect Image",
+      "time" : {
+        "start" : 1669874156602,
+        "stop" : 1669874156602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Image Enlarge Button",
+      "time" : {
+        "start" : 1669874158753,
+        "stop" : 1669874158753,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5c7af70bdba045d6",
+      "name" : "Screenshot",
+      "source" : "5c7af70bdba045d6.png",
+      "type" : "image/png",
+      "size" : 206858
+    }, {
+      "uid" : "a6cad086774f71c0",
+      "name" : "Screenshot",
+      "source" : "a6cad086774f71c0.png",
+      "type" : "image/png",
+      "size" : 169263
+    }, {
+      "uid" : "ed05f722e007a1bb",
+      "name" : "Screenshot",
+      "source" : "ed05f722e007a1bb.png",
+      "type" : "image/png",
+      "size" : 169233
+    }, {
+      "uid" : "1fe967c111fa8a23",
+      "name" : "Screenshot",
+      "source" : "1fe967c111fa8a23.png",
+      "type" : "image/png",
+      "size" : 169233
+    }, {
+      "uid" : "ee8b443bdabc71b9",
+      "name" : "Screenshot",
+      "source" : "ee8b443bdabc71b9.png",
+      "type" : "image/png",
+      "size" : 169233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I zoom in the image, I should see the bigger and closer details"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Zoom the trap check image"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a717003befc49664.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

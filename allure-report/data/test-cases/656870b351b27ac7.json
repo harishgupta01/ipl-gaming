@@ -1,0 +1,102 @@
+{
+  "uid" : "656870b351b27ac7",
+  "name" : "When I select one region to enable apply button.",
+  "fullName" : "My Trap section validations: Verify Add & Remove.When I select one region to enable apply button.",
+  "historyId" : "84e241e91652fbbf5140d27bd8d4ef44",
+  "time" : {
+    "start" : 1669873928943,
+    "stop" : 1669873944333,
+    "duration" : 15390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873942946,
+        "stop" : 1669873942946,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Selecting one region",
+      "time" : {
+        "start" : 1669873944332,
+        "stop" : 1669873944332,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I select one region to enable apply button."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "656870b351b27ac7.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

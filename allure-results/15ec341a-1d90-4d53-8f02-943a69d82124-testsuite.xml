@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874214860' stop='1669874237272'>
+    <name>My Trap section validations: Collapse region sections</name>
+    <title>My Trap section validations: Collapse region sections</title>
+    <test-cases>
+        <test-case start='1669874214860' status='passed' stop='1669874214861'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874214861' status='passed' stop='1669874214862'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874214863' status='passed' stop='1669874216377'>
+            <name>When I collapse the region</name>
+            <title>When I collapse the region</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874216376' status='passed' stop='1669874216376'>
+                    <name>Clicked on Element Trap Tab</name>
+                    <title>Clicked on Element Trap Tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874216377' status='passed' stop='1669874237270'>
+            <name>Then I should only see the region names</name>
+            <title>Then I should only see the region names</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874220064' status='passed' stop='1669874220064'>
+                    <name>Clicked on Element Collaps Region</name>
+                    <title>Clicked on Element Collaps Region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874234074' status='failed' stop='1669874234074'>
+                    <name>Element is not clickable</name>
+                    <title>Element is not clickable</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235373' status='passed' stop='1669874235373'>
+                    <name>Region Name is displayed</name>
+                    <title>Region Name is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235375' status='passed' stop='1669874235375'>
+                    <name>Crop Name is not displayed</name>
+                    <title>Crop Name is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235380' status='passed' stop='1669874235380'>
+                    <name>Pest Name is not displayed</name>
+                    <title>Pest Name is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235381' status='passed' stop='1669874235381'>
+                    <name>Pest Count is not displayed</name>
+                    <title>Pest Count is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235382' status='passed' stop='1669874235382'>
+                    <name>Status is not displayed</name>
+                    <title>Status is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235382' status='passed' stop='1669874235382'>
+                    <name>Insects is not displayed</name>
+                    <title>Insects is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235382' status='passed' stop='1669874235382'>
+                    <name>Trap Name is not displayed</name>
+                    <title>Trap Name is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874235382' status='passed' stop='1669874235382'>
+                    <name>Updated Date is not displayed</name>
+                    <title>Updated Date is not displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874237268' status='passed' stop='1669874237268'>
+                    <name>Clicked on Element Expand Region</name>
+                    <title>Clicked on Element Expand Region</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='778b3e2d-b282-446d-b924-3bed39ecaa2d-attachment.png' type='image/png' size='198752'/>
+            </attachments>
+        </test-case>
+        <test-case start='1669874237270' status='passed' stop='1669874237271'>
+            <name>And A minus icon in front of it</name>
+            <title>And A minus icon in front of it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874237271' status='passed' stop='1669874237271'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

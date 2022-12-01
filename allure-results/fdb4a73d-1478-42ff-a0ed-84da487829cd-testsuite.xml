@@ -1,0 +1,155 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669874237283' stop='1669874246855'>
+    <name>My Trap section validations: Expand region sections</name>
+    <title>My Trap section validations: Expand region sections</title>
+    <test-cases>
+        <test-case start='1669874237283' status='passed' stop='1669874237283'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874237283' status='passed' stop='1669874237286'>
+            <name>Given I am logged in as a user and navigated to Trap screen</name>
+            <title>Given I am logged in as a user and navigated to Trap screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874237286' status='passed' stop='1669874237287'>
+            <name>When I  expand the region</name>
+            <title>When I  expand the region</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874237287' status='passed' stop='1669874241248'>
+            <name>Then i should see crop, pest name</name>
+            <title>Then i should see crop, pest name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874239052' status='passed' stop='1669874239052'>
+                    <name>Region Name is displayed</name>
+                    <title>Region Name is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874240016' status='passed' stop='1669874240016'>
+                    <name>Crop Name is displayed</name>
+                    <title>Crop Name is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874241247' status='passed' stop='1669874241247'>
+                    <name>Pest Name is displayed</name>
+                    <title>Pest Name is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874241248' status='passed' stop='1669874246852'>
+            <name>And the trap list should have status,pest count,trap name and updated date columns</name>
+            <title>And the trap list should have status,pest count,trap name and updated date columns</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps>
+                <step start='1669874242213' status='passed' stop='1669874242213'>
+                    <name>Pest Count is displayed</name>
+                    <title>Pest Count is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874243196' status='passed' stop='1669874243196'>
+                    <name>Status is displayed</name>
+                    <title>Status is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874244392' status='passed' stop='1669874244392'>
+                    <name>Insects is displayed</name>
+                    <title>Insects is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874245671' status='passed' stop='1669874245671'>
+                    <name>Trap Name is displayed</name>
+                    <title>Trap Name is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669874246851' status='passed' stop='1669874246851'>
+                    <name>Updated Date is displayed</name>
+                    <title>Updated Date is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874246853' status='passed' stop='1669874246854'>
+            <name>And A plus icon in front of region name</name>
+            <title>And A plus icon in front of region name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669874246854' status='passed' stop='1669874246855'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='google pixel 3 xl-9.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
