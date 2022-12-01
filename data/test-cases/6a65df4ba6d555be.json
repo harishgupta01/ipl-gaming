@@ -1,0 +1,62 @@
+{
+  "uid" : "6a65df4ba6d555be",
+  "name" : "When i am on My Traps screen",
+  "fullName" : "My Trap section validations: Verify My Traps screen elements.When i am on My Traps screen",
+  "historyId" : "92fc064289d832d6e5f8e4086f83f837",
+  "time" : {
+    "start" : 1669873815579,
+    "stop" : 1669873815593,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "When i am on My Traps screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify My Traps screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a65df4ba6d555be.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

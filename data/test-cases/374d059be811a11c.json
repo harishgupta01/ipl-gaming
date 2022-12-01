@@ -1,0 +1,102 @@
+{
+  "uid" : "374d059be811a11c",
+  "name" : "Then Show All Regions button should be displayed.",
+  "fullName" : "My Trap section validations: Verify Select Region from Trap tab.Then Show All Regions button should be displayed.",
+  "historyId" : "cd1b534f85e5e2d94367a49bc0ebd363",
+  "time" : {
+    "start" : 1669873886316,
+    "stop" : 1669873888459,
+    "duration" : 2143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Show all region Button is displayed",
+      "time" : {
+        "start" : 1669873887270,
+        "stop" : 1669873887270,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "List of all regions is displayed",
+      "time" : {
+        "start" : 1669873888457,
+        "stop" : 1669873888457,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Show All Regions button should be displayed."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Select Region from Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "374d059be811a11c.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

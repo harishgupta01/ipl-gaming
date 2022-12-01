@@ -1,0 +1,62 @@
+{
+  "uid" : "a5da5e2f5656156f",
+  "name" : "And A minus icon in front of it",
+  "fullName" : "My Trap section validations: Collapse region sections.And A minus icon in front of it",
+  "historyId" : "80a4924136c052db7cfb9921df1a14d",
+  "time" : {
+    "start" : 1669874237270,
+    "stop" : 1669874237271,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "testMethod",
+    "value" : "And A minus icon in front of it"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Collapse region sections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5da5e2f5656156f.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

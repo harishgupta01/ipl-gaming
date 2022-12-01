@@ -1,0 +1,123 @@
+{
+  "uid" : "349a766709306485",
+  "name" : "When I Deselect all regions.",
+  "fullName" : "My Trap section validations: Verify Apply Button.When I Deselect all regions.",
+  "historyId" : "5898d9835e9d1aec122d43bc05970628",
+  "time" : {
+    "start" : 1669873895851,
+    "stop" : 1669873925439,
+    "duration" : 29588
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873909862,
+        "stop" : 1669873909862,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Navigating to Region Selection Screen",
+      "time" : {
+        "start" : 1669873911405,
+        "stop" : 1669873911405,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873925414,
+        "stop" : 1669873925414,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5a5546ae6210c714",
+      "name" : "Screenshot",
+      "source" : "5a5546ae6210c714.png",
+      "type" : "image/png",
+      "size" : 208695
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I Deselect all regions."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Apply Button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "349a766709306485.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

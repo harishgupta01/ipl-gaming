@@ -1,0 +1,62 @@
+{
+  "uid" : "fcc73a8ee44c90b9",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "fullName" : "My Trap section validations: Verify count drop down.Given I am logged in as a user and navigated to Trap screen",
+  "historyId" : "6df29d24402a7482f293abf1237628f4",
+  "time" : {
+    "start" : 1669874016578,
+    "stop" : 1669874016580,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am logged in as a user and navigated to Trap screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcc73a8ee44c90b9.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

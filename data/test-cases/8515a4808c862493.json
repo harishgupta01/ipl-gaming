@@ -1,0 +1,102 @@
+{
+  "uid" : "8515a4808c862493",
+  "name" : "And Unselected region should get removed.",
+  "fullName" : "My Trap section validations: Verify Add & Remove.And Unselected region should get removed.",
+  "historyId" : "49c76f95b55edc6cd07d9680c162a69b",
+  "time" : {
+    "start" : 1669873947148,
+    "stop" : 1669873947155,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Unselected region is not displayed",
+      "time" : {
+        "start" : 1669873947149,
+        "stop" : 1669873947149,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Unselected region is not displayed",
+      "time" : {
+        "start" : 1669873947150,
+        "stop" : 1669873947150,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Unselected region should get removed."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8515a4808c862493.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "92eadc5e23b65922",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date.",
+  "historyId" : "7dd5547a63fd88e0ff57b190528b9eb0",
+  "time" : {
+    "start" : 1669873867980,
+    "stop" : 1669873867981,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33680ebbbd483fed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669873831663,
+        "stop" : 1669873831663,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92eadc5e23b65922.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

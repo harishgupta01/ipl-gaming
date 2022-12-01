@@ -1,0 +1,147 @@
+{
+  "uid" : "86a343b38fab5141",
+  "name" : "And the trap list should have status,pest count,trap name and updated date columns",
+  "fullName" : "My Trap section validations: Expand region sections.And the trap list should have status,pest count,trap name and updated date columns",
+  "historyId" : "24b8e3bcb962898f7db0dc3e8c8f3f04",
+  "time" : {
+    "start" : 1669874241248,
+    "stop" : 1669874246852,
+    "duration" : 5604
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Pest Count is displayed",
+      "time" : {
+        "start" : 1669874242213,
+        "stop" : 1669874242213,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Status is displayed",
+      "time" : {
+        "start" : 1669874243196,
+        "stop" : 1669874243196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insects is displayed",
+      "time" : {
+        "start" : 1669874244392,
+        "stop" : 1669874244392,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Trap Name is displayed",
+      "time" : {
+        "start" : 1669874245671,
+        "stop" : 1669874245671,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Updated Date is displayed",
+      "time" : {
+        "start" : 1669874246851,
+        "stop" : 1669874246851,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "testMethod",
+    "value" : "And the trap list should have status,pest count,trap name and updated date columns"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Expand region sections"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86a343b38fab5141.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

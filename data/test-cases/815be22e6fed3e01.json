@@ -1,0 +1,62 @@
+{
+  "uid" : "815be22e6fed3e01",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "fullName" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date.Given I am logged in as a user and navigated to Trap screen",
+  "historyId" : "4209cfda836abe7df9c5a07d68584867",
+  "time" : {
+    "start" : 1669873831663,
+    "stop" : 1669873831664,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am logged in as a user and navigated to Trap screen"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "815be22e6fed3e01.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

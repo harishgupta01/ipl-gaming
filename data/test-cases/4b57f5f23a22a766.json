@@ -1,0 +1,70 @@
+{
+  "uid" : "4b57f5f23a22a766",
+  "name" : "",
+  "fullName" : "My Trap section validations: Verify count drop down.",
+  "historyId" : "2ef786c5cf4a3a07809b006416b6d844",
+  "time" : {
+    "start" : 1669874057778,
+    "stop" : 1669874057780,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify count drop down"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "145c4c6d61014f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669874016578,
+        "stop" : 1669874016578,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b57f5f23a22a766.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

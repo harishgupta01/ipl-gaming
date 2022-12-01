@@ -1,0 +1,87 @@
+{
+  "uid" : "5cb495fd63ed716",
+  "name" : "Then Region should be removed from the slider.",
+  "fullName" : "My Trap section validations: Verify Remove region from slider on Trap tab.Then Region should be removed from the slider.",
+  "historyId" : "5117fc15e3a8928076701b278ab0cdbb",
+  "time" : {
+    "start" : 1669874265068,
+    "stop" : 1669874265070,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Remove Region Button is not displayed",
+      "time" : {
+        "start" : 1669874265069,
+        "stop" : 1669874265069,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Region should be removed from the slider."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cb495fd63ed716.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

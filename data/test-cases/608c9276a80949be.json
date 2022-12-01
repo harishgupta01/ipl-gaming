@@ -1,0 +1,108 @@
+{
+  "uid" : "608c9276a80949be",
+  "name" : "When I see Trap details",
+  "fullName" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date.When I see Trap details",
+  "historyId" : "7dd44f3c3f86cca0c3de95c0721603b0",
+  "time" : {
+    "start" : 1669873831664,
+    "stop" : 1669873846561,
+    "duration" : 14897
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "undefined Element is Displayed",
+      "time" : {
+        "start" : 1669873832554,
+        "stop" : 1669873832554,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873846558,
+        "stop" : 1669873846558,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c1f077ea0572aaa2",
+      "name" : "Screenshot",
+      "source" : "c1f077ea0572aaa2.png",
+      "type" : "image/png",
+      "size" : 207660
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I see Trap details"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "608c9276a80949be.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

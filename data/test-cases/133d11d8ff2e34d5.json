@@ -1,0 +1,174 @@
+{
+  "uid" : "133d11d8ff2e34d5",
+  "name" : "And Daily Avg and Actual count graph tab",
+  "fullName" : "My Trap section validations: Verify trap check details screen elements.And Daily Avg and Actual count graph tab",
+  "historyId" : "4ce0a48829c2e575e4999963bf2166b8",
+  "time" : {
+    "start" : 1669874008082,
+    "stop" : 1669874015153,
+    "duration" : 7071
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trap Name Element is Displayed",
+      "time" : {
+        "start" : 1669874008830,
+        "stop" : 1669874008830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Insect Name Element is Displayed",
+      "time" : {
+        "start" : 1669874009759,
+        "stop" : 1669874009759,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Daily Avg Dropdown is displayed",
+      "time" : {
+        "start" : 1669874011345,
+        "stop" : 1669874011345,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Daily Avg Dropdown",
+      "time" : {
+        "start" : 1669874012467,
+        "stop" : 1669874012467,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Daily Avg Dropdown Options is displayed",
+      "time" : {
+        "start" : 1669874013900,
+        "stop" : 1669874013900,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Daily Avg Dropdown",
+      "time" : {
+        "start" : 1669874015152,
+        "stop" : 1669874015152,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf815ee56dd082e6",
+      "name" : "Screenshot",
+      "source" : "bf815ee56dd082e6.png",
+      "type" : "image/png",
+      "size" : 174042
+    }, {
+      "uid" : "54f081fb667d0421",
+      "name" : "Screenshot",
+      "source" : "54f081fb667d0421.png",
+      "type" : "image/png",
+      "size" : 174042
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Daily Avg and Actual count graph tab"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "133d11d8ff2e34d5.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

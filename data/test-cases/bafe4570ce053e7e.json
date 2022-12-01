@@ -1,0 +1,87 @@
+{
+  "uid" : "bafe4570ce053e7e",
+  "name" : "Then Selected region should get added.",
+  "fullName" : "My Trap section validations: Verify Add & Remove.Then Selected region should get added.",
+  "historyId" : "3cf4a4c496d88272fd4835c894671bb3",
+  "time" : {
+    "start" : 1669873945723,
+    "stop" : 1669873947147,
+    "duration" : 1424
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Selected Region is displayed",
+      "time" : {
+        "start" : 1669873947146,
+        "stop" : 1669873947146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Selected region should get added."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Add & Remove"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bafe4570ce053e7e.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

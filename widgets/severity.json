@@ -1,0 +1,871 @@
+[ {
+  "uid" : "17ce8a3389ea1637",
+  "name" : "Then I zoom out the image, I should see the smaller and farther details in a image",
+  "time" : {
+    "start" : 1669874158754,
+    "stop" : 1669874166378,
+    "duration" : 7624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e91eb6802af9a469",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874057796,
+    "stop" : 1669874057798,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5da5e2f5656156f",
+  "name" : "And A minus icon in front of it",
+  "time" : {
+    "start" : 1669874237270,
+    "stop" : 1669874237271,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "157fc472cc4f726e",
+  "name" : "When I click on a trap",
+  "time" : {
+    "start" : 1669873976127,
+    "stop" : 1669873992381,
+    "duration" : 16254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a65df4ba6d555be",
+  "name" : "When i am on My Traps screen",
+  "time" : {
+    "start" : 1669873815579,
+    "stop" : 1669873815593,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed8c21e5605e0d6",
+  "name" : "When I  expand the region",
+  "time" : {
+    "start" : 1669874237286,
+    "stop" : 1669874237287,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "582f1cc1136f73bb",
+  "name" : "And List of regions should be displayed.",
+  "time" : {
+    "start" : 1669873888459,
+    "stop" : 1669873892470,
+    "duration" : 4011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50d9212bc79b372e",
+  "name" : "",
+  "time" : {
+    "start" : 1669874265072,
+    "stop" : 1669874265072,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9123d76fd8fe7a65",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873976124,
+    "stop" : 1669873976127,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d04c299cc0127e6b",
+  "name" : "And Next and Previous button should be enabled only when there are more than one trap check images for the selected trap",
+  "time" : {
+    "start" : 1669874205511,
+    "stop" : 1669874205512,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eae7387bc67f91d",
+  "name" : "And Region name",
+  "time" : {
+    "start" : 1669873998400,
+    "stop" : 1669874002948,
+    "duration" : 4548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "489c6598e8642b70",
+  "name" : "",
+  "time" : {
+    "start" : 1669874214848,
+    "stop" : 1669874214848,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0dac40e95928944",
+  "name" : "Then I should be able to select cumulative count from the drop down",
+  "time" : {
+    "start" : 1669874040813,
+    "stop" : 1669874057777,
+    "duration" : 16964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8129ee6c3ff9a49",
+  "name" : "And Removed region should not be displayed in the slider and on a screen.",
+  "time" : {
+    "start" : 1669874265070,
+    "stop" : 1669874265072,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2335c3961831a0",
+  "name" : "Then Click Apply button",
+  "time" : {
+    "start" : 1669873944333,
+    "stop" : 1669873945723,
+    "duration" : 1390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1173e907830599fe",
+  "name" : "And Days since last recording",
+  "time" : {
+    "start" : 1669874112080,
+    "stop" : 1669874113040,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88c9b0485f41491",
+  "name" : "And I should able to sort trap details when click on Pest count column",
+  "time" : {
+    "start" : 1669873862439,
+    "stop" : 1669873864205,
+    "duration" : 1766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c11bce9a301aae1",
+  "name" : "And Trap catches graph",
+  "time" : {
+    "start" : 1669874006438,
+    "stop" : 1669874008082,
+    "duration" : 1644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "413cbcab742d5ec7",
+  "name" : "And Daily Avg",
+  "time" : {
+    "start" : 1669874113040,
+    "stop" : 1669874114366,
+    "duration" : 1326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cbf2759696bfff5",
+  "name" : "And A plus icon in front of region name",
+  "time" : {
+    "start" : 1669874246853,
+    "stop" : 1669874246854,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e163095d51cafa8",
+  "name" : "And trap image",
+  "time" : {
+    "start" : 1669874015153,
+    "stop" : 1669874016561,
+    "duration" : 1408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fba7b516e710e31d",
+  "name" : "When I collapse the region",
+  "time" : {
+    "start" : 1669874214863,
+    "stop" : 1669874216377,
+    "duration" : 1514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d8475121c37203c",
+  "name" : "And X button to close the image",
+  "time" : {
+    "start" : 1669874118280,
+    "stop" : 1669874120772,
+    "duration" : 2492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b57f5f23a22a766",
+  "name" : "",
+  "time" : {
+    "start" : 1669874057778,
+    "stop" : 1669874057780,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "643c47dad225fc7d",
+  "name" : "",
+  "time" : {
+    "start" : 1669873947156,
+    "stop" : 1669873947156,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17be0cda6419c259",
+  "name" : "Then i should see crop, pest name",
+  "time" : {
+    "start" : 1669874237287,
+    "stop" : 1669874241248,
+    "duration" : 3961
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97d224918684a5de",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873895850,
+    "stop" : 1669873895851,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14f9c47dc77e6f34",
+  "name" : "Then Apply button should be disabled.",
+  "time" : {
+    "start" : 1669873925439,
+    "stop" : 1669873928926,
+    "duration" : 3487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64815d556871c3c3",
+  "name" : "And Previous and Next buttons",
+  "time" : {
+    "start" : 1669874114367,
+    "stop" : 1669874116861,
+    "duration" : 2494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d584d5ab8b75d08c",
+  "name" : "Then I should only see the region names",
+  "time" : {
+    "start" : 1669874216377,
+    "stop" : 1669874237270,
+    "duration" : 20893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be67fdaf4a46d7ff",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873867994,
+    "stop" : 1669873867996,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "424d5bc445648d83",
+  "name" : "",
+  "time" : {
+    "start" : 1669873895833,
+    "stop" : 1669873895833,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "349a766709306485",
+  "name" : "When I Deselect all regions.",
+  "time" : {
+    "start" : 1669873895851,
+    "stop" : 1669873925439,
+    "duration" : 29588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96bcac1ecc59078",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873947167,
+    "stop" : 1669873947168,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "873b8fd257958dc1",
+  "name" : "And Button to see full image",
+  "time" : {
+    "start" : 1669874116861,
+    "stop" : 1669874118280,
+    "duration" : 1419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f391bf79c51a5bc2",
+  "name" : "And Click on Apply button.",
+  "time" : {
+    "start" : 1669873968982,
+    "stop" : 1669873970926,
+    "duration" : 1944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "656870b351b27ac7",
+  "name" : "When I select one region to enable apply button.",
+  "time" : {
+    "start" : 1669873928943,
+    "stop" : 1669873944333,
+    "duration" : 15390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8474d5fca3a1b68b",
+  "name" : "And details table shows Region, Crop and Pest name",
+  "time" : {
+    "start" : 1669873821596,
+    "stop" : 1669873825600,
+    "duration" : 4004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75932417b7680a42",
+  "name" : "When I click On region selection icon Select Region screen should be displayed.",
+  "time" : {
+    "start" : 1669873867996,
+    "stop" : 1669873886316,
+    "duration" : 18320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42cbbbf91b4b0300",
+  "name" : "",
+  "time" : {
+    "start" : 1669874237271,
+    "stop" : 1669874237271,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db4c454b05d3ec8e",
+  "name" : "",
+  "time" : {
+    "start" : 1669873831640,
+    "stop" : 1669873831643,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d28ae34ddff6ff6",
+  "name" : "And I should able to sort trap details when click on Name column",
+  "time" : {
+    "start" : 1669873864205,
+    "stop" : 1669873866104,
+    "duration" : 1899
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40132235f4e5005f",
+  "name" : "And I should view different trap check images by clicking on next and previous button",
+  "time" : {
+    "start" : 1669874206718,
+    "stop" : 1669874214848,
+    "duration" : 8130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc4eaf29cbd86bfb",
+  "name" : "And I should see current image, total images in between Next and Previous buttons",
+  "time" : {
+    "start" : 1669874205513,
+    "stop" : 1669874206718,
+    "duration" : 1205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8831ae4cb62d633",
+  "name" : "When Trap Detail page is open, Actual count is selected by default",
+  "time" : {
+    "start" : 1669874016580,
+    "stop" : 1669874040813,
+    "duration" : 24233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "133d11d8ff2e34d5",
+  "name" : "And Daily Avg and Actual count graph tab",
+  "time" : {
+    "start" : 1669874008082,
+    "stop" : 1669874015153,
+    "duration" : 7071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "572c87a4811e6f2a",
+  "name" : "When I click on X button to remove the regions.",
+  "time" : {
+    "start" : 1669874246866,
+    "stop" : 1669874265068,
+    "duration" : 18202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f46ca6561bb0fb6",
+  "name" : "Then I should be able to sort trap details when click on Status column",
+  "time" : {
+    "start" : 1669873846561,
+    "stop" : 1669873862439,
+    "duration" : 15878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8515a4808c862493",
+  "name" : "And Unselected region should get removed.",
+  "time" : {
+    "start" : 1669873947148,
+    "stop" : 1669873947155,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b82ebef05cf3a5d",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874166384,
+    "stop" : 1669874166385,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17e8870d61b0287f",
+  "name" : "Then Trap check image should display Trap name - Date of trap check",
+  "time" : {
+    "start" : 1669874109438,
+    "stop" : 1669874111119,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3424a9efcf46933",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874120782,
+    "stop" : 1669874120783,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c99000192715b65",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873928943,
+    "stop" : 1669873928943,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bafe4570ce053e7e",
+  "name" : "Then Selected region should get added.",
+  "time" : {
+    "start" : 1669873945723,
+    "stop" : 1669873947147,
+    "duration" : 1424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "997cb461450fe2",
+  "name" : "And By default all of the regions should be selected.",
+  "time" : {
+    "start" : 1669873892470,
+    "stop" : 1669873895832,
+    "duration" : 3362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bf5da7212b19991",
+  "name" : "",
+  "time" : {
+    "start" : 1669874246854,
+    "stop" : 1669874246855,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "896b656b3d393448",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874237283,
+    "stop" : 1669874237286,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "926fb21018b58525",
+  "name" : "Then I should be navigated to trap check details screen",
+  "time" : {
+    "start" : 1669873992381,
+    "stop" : 1669873992382,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6d60309f74d2425",
+  "name" : "When I clicking on Show All Regions button.",
+  "time" : {
+    "start" : 1669873947168,
+    "stop" : 1669873968982,
+    "duration" : 21814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b736f40b36d5a4",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874214861,
+    "stop" : 1669874214862,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "608c9276a80949be",
+  "name" : "When I see Trap details",
+  "time" : {
+    "start" : 1669873831664,
+    "stop" : 1669873846561,
+    "duration" : 14897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7e23a160f825a14",
+  "name" : "Then all region should get added.",
+  "time" : {
+    "start" : 1669873970926,
+    "stop" : 1669873976113,
+    "duration" : 5187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebd26822fdbebb85",
+  "name" : "Then I should see Next and Previous button on a trap image",
+  "time" : {
+    "start" : 1669874202867,
+    "stop" : 1669874205511,
+    "duration" : 2644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92eadc5e23b65922",
+  "name" : "",
+  "time" : {
+    "start" : 1669873867980,
+    "stop" : 1669873867981,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b964ae13f833fb84",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873798627,
+    "stop" : 1669873815578,
+    "duration" : 16951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76bbae89a39a582a",
+  "name" : "When i click on the trap check image",
+  "time" : {
+    "start" : 1669874166385,
+    "stop" : 1669874202866,
+    "duration" : 36481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a343b38fab5141",
+  "name" : "And the trap list should have status,pest count,trap name and updated date columns",
+  "time" : {
+    "start" : 1669874241248,
+    "stop" : 1669874246852,
+    "duration" : 5604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5603bc32fea12a4c",
+  "name" : "And By default the region section is maximised",
+  "time" : {
+    "start" : 1669873819039,
+    "stop" : 1669873821596,
+    "duration" : 2557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5e5743fca864a6e",
+  "name" : "",
+  "time" : {
+    "start" : 1669873928928,
+    "stop" : 1669873928930,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc04945a9f44d1e9",
+  "name" : "",
+  "time" : {
+    "start" : 1669873976114,
+    "stop" : 1669873976114,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "374d059be811a11c",
+  "name" : "Then Show All Regions button should be displayed.",
+  "time" : {
+    "start" : 1669873886316,
+    "stop" : 1669873888459,
+    "duration" : 2143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b01d28c247bfb553",
+  "name" : "",
+  "time" : {
+    "start" : 1669874120773,
+    "stop" : 1669874120773,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcc73a8ee44c90b9",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874016578,
+    "stop" : 1669874016580,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a717003befc49664",
+  "name" : "When I zoom in the image, I should see the bigger and closer details",
+  "time" : {
+    "start" : 1669874120783,
+    "stop" : 1669874158754,
+    "duration" : 37971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "963890af029d77d2",
+  "name" : "And should see Trap Name",
+  "time" : {
+    "start" : 1669873992382,
+    "stop" : 1669873998400,
+    "duration" : 6018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10438b1bce51ee96",
+  "name" : "And I should able to sort trap details when click on Updated column",
+  "time" : {
+    "start" : 1669873866104,
+    "stop" : 1669873867980,
+    "duration" : 1876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcbcc4f7b3cacc44",
+  "name" : "And The region slider with the regions which are assigned to the user",
+  "time" : {
+    "start" : 1669873816963,
+    "stop" : 1669873819039,
+    "duration" : 2076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a76fb5b82ee3683",
+  "name" : "When I click on the image icon, the trap catch image is displayed",
+  "time" : {
+    "start" : 1669874057798,
+    "stop" : 1669874109438,
+    "duration" : 51640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "815be22e6fed3e01",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669873831663,
+    "stop" : 1669873831664,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cb495fd63ed716",
+  "name" : "Then Region should be removed from the slider.",
+  "time" : {
+    "start" : 1669874265068,
+    "stop" : 1669874265070,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88bda1dfa29b6156",
+  "name" : "Given I am logged in as a user and navigated to Trap screen",
+  "time" : {
+    "start" : 1669874246863,
+    "stop" : 1669874246866,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fca5a4f2a17b1aa",
+  "name" : "And Insect and crop name",
+  "time" : {
+    "start" : 1669874002949,
+    "stop" : 1669874006437,
+    "duration" : 3488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75fb4df0151d2814",
+  "name" : "And Number of catches",
+  "time" : {
+    "start" : 1669874111120,
+    "stop" : 1669874112080,
+    "duration" : 960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ba94a1e8c4efdfb",
+  "name" : "",
+  "time" : {
+    "start" : 1669874166379,
+    "stop" : 1669874166379,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "809a3206c2604ef2",
+  "name" : "Then I should see The region selection icon",
+  "time" : {
+    "start" : 1669873815594,
+    "stop" : 1669873816963,
+    "duration" : 1369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f1e25f6a30d604",
+  "name" : "And the detail table is seen with status, pest count, trap name and updated date columns",
+  "time" : {
+    "start" : 1669873825600,
+    "stop" : 1669873831639,
+    "duration" : 6039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bed21ec56e177af",
+  "name" : "",
+  "time" : {
+    "start" : 1669874016561,
+    "stop" : 1669874016562,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

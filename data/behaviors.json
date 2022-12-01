@@ -1,0 +1,1484 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "b964ae13f833fb84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873798627,
+      "stop" : 1669873815578,
+      "duration" : 16951
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When i am on My Traps screen",
+    "uid" : "6a65df4ba6d555be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873815579,
+      "stop" : 1669873815593,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should see The region selection icon",
+    "uid" : "809a3206c2604ef2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873815594,
+      "stop" : 1669873816963,
+      "duration" : 1369
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And The region slider with the regions which are assigned to the user",
+    "uid" : "dcbcc4f7b3cacc44",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873816963,
+      "stop" : 1669873819039,
+      "duration" : 2076
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And By default the region section is maximised",
+    "uid" : "5603bc32fea12a4c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873819039,
+      "stop" : 1669873821596,
+      "duration" : 2557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And details table shows Region, Crop and Pest name",
+    "uid" : "8474d5fca3a1b68b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873821596,
+      "stop" : 1669873825600,
+      "duration" : 4004
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And the detail table is seen with status, pest count, trap name and updated date columns",
+    "uid" : "20f1e25f6a30d604",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873825600,
+      "stop" : 1669873831639,
+      "duration" : 6039
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "db4c454b05d3ec8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873831640,
+      "stop" : 1669873831643,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "815be22e6fed3e01",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873831663,
+      "stop" : 1669873831664,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I see Trap details",
+    "uid" : "608c9276a80949be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873831664,
+      "stop" : 1669873846561,
+      "duration" : 14897
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should be able to sort trap details when click on Status column",
+    "uid" : "4f46ca6561bb0fb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873846561,
+      "stop" : 1669873862439,
+      "duration" : 15878
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And I should able to sort trap details when click on Pest count column",
+    "uid" : "a88c9b0485f41491",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873862439,
+      "stop" : 1669873864205,
+      "duration" : 1766
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And I should able to sort trap details when click on Name column",
+    "uid" : "5d28ae34ddff6ff6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873864205,
+      "stop" : 1669873866104,
+      "duration" : 1899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And I should able to sort trap details when click on Updated column",
+    "uid" : "10438b1bce51ee96",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873866104,
+      "stop" : 1669873867980,
+      "duration" : 1876
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "92eadc5e23b65922",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873867980,
+      "stop" : 1669873867981,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "be67fdaf4a46d7ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873867994,
+      "stop" : 1669873867996,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I click On region selection icon Select Region screen should be displayed.",
+    "uid" : "75932417b7680a42",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873867996,
+      "stop" : 1669873886316,
+      "duration" : 18320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Show All Regions button should be displayed.",
+    "uid" : "374d059be811a11c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873886316,
+      "stop" : 1669873888459,
+      "duration" : 2143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And List of regions should be displayed.",
+    "uid" : "582f1cc1136f73bb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873888459,
+      "stop" : 1669873892470,
+      "duration" : 4011
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And By default all of the regions should be selected.",
+    "uid" : "997cb461450fe2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873892470,
+      "stop" : 1669873895832,
+      "duration" : 3362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "424d5bc445648d83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873895833,
+      "stop" : 1669873895833,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "97d224918684a5de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873895850,
+      "stop" : 1669873895851,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I Deselect all regions.",
+    "uid" : "349a766709306485",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873895851,
+      "stop" : 1669873925439,
+      "duration" : 29588
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Apply button should be disabled.",
+    "uid" : "14f9c47dc77e6f34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873925439,
+      "stop" : 1669873928926,
+      "duration" : 3487
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "e5e5743fca864a6e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873928928,
+      "stop" : 1669873928930,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I select one region to enable apply button.",
+    "uid" : "656870b351b27ac7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873928943,
+      "stop" : 1669873944333,
+      "duration" : 15390
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "3c99000192715b65",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873928943,
+      "stop" : 1669873928943,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Click Apply button",
+    "uid" : "6d2335c3961831a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873944333,
+      "stop" : 1669873945723,
+      "duration" : 1390
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Selected region should get added.",
+    "uid" : "bafe4570ce053e7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873945723,
+      "stop" : 1669873947147,
+      "duration" : 1424
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Unselected region should get removed.",
+    "uid" : "8515a4808c862493",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873947148,
+      "stop" : 1669873947155,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "643c47dad225fc7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873947156,
+      "stop" : 1669873947156,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "d96bcac1ecc59078",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873947167,
+      "stop" : 1669873947168,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I clicking on Show All Regions button.",
+    "uid" : "f6d60309f74d2425",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873947168,
+      "stop" : 1669873968982,
+      "duration" : 21814
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Click on Apply button.",
+    "uid" : "f391bf79c51a5bc2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873968982,
+      "stop" : 1669873970926,
+      "duration" : 1944
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then all region should get added.",
+    "uid" : "c7e23a160f825a14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873970926,
+      "stop" : 1669873976113,
+      "duration" : 5187
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "cc04945a9f44d1e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873976114,
+      "stop" : 1669873976114,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "9123d76fd8fe7a65",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873976124,
+      "stop" : 1669873976127,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I click on a trap",
+    "uid" : "157fc472cc4f726e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873976127,
+      "stop" : 1669873992381,
+      "duration" : 16254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should be navigated to trap check details screen",
+    "uid" : "926fb21018b58525",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873992381,
+      "stop" : 1669873992382,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And should see Trap Name",
+    "uid" : "963890af029d77d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873992382,
+      "stop" : 1669873998400,
+      "duration" : 6018
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Region name",
+    "uid" : "5eae7387bc67f91d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669873998400,
+      "stop" : 1669874002948,
+      "duration" : 4548
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Insect and crop name",
+    "uid" : "3fca5a4f2a17b1aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874002949,
+      "stop" : 1669874006437,
+      "duration" : 3488
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Trap catches graph",
+    "uid" : "6c11bce9a301aae1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874006438,
+      "stop" : 1669874008082,
+      "duration" : 1644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Daily Avg and Actual count graph tab",
+    "uid" : "133d11d8ff2e34d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874008082,
+      "stop" : 1669874015153,
+      "duration" : 7071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And trap image",
+    "uid" : "9e163095d51cafa8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874015153,
+      "stop" : 1669874016561,
+      "duration" : 1408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "2bed21ec56e177af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874016561,
+      "stop" : 1669874016562,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "fcc73a8ee44c90b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874016578,
+      "stop" : 1669874016580,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When Trap Detail page is open, Actual count is selected by default",
+    "uid" : "d8831ae4cb62d633",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874016580,
+      "stop" : 1669874040813,
+      "duration" : 24233
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should be able to select cumulative count from the drop down",
+    "uid" : "f0dac40e95928944",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874040813,
+      "stop" : 1669874057777,
+      "duration" : 16964
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "4b57f5f23a22a766",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874057778,
+      "stop" : 1669874057780,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "e91eb6802af9a469",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874057796,
+      "stop" : 1669874057798,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I click on the image icon, the trap catch image is displayed",
+    "uid" : "1a76fb5b82ee3683",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874057798,
+      "stop" : 1669874109438,
+      "duration" : 51640
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Trap check image should display Trap name - Date of trap check",
+    "uid" : "17e8870d61b0287f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874109438,
+      "stop" : 1669874111119,
+      "duration" : 1681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Number of catches",
+    "uid" : "75fb4df0151d2814",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874111120,
+      "stop" : 1669874112080,
+      "duration" : 960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Days since last recording",
+    "uid" : "1173e907830599fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874112080,
+      "stop" : 1669874113040,
+      "duration" : 960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Daily Avg",
+    "uid" : "413cbcab742d5ec7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874113040,
+      "stop" : 1669874114366,
+      "duration" : 1326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Previous and Next buttons",
+    "uid" : "64815d556871c3c3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874114367,
+      "stop" : 1669874116861,
+      "duration" : 2494
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Button to see full image",
+    "uid" : "873b8fd257958dc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874116861,
+      "stop" : 1669874118280,
+      "duration" : 1419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And X button to close the image",
+    "uid" : "9d8475121c37203c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874118280,
+      "stop" : 1669874120772,
+      "duration" : 2492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "b01d28c247bfb553",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874120773,
+      "stop" : 1669874120773,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "f3424a9efcf46933",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874120782,
+      "stop" : 1669874120783,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I zoom in the image, I should see the bigger and closer details",
+    "uid" : "a717003befc49664",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874120783,
+      "stop" : 1669874158754,
+      "duration" : 37971
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I zoom out the image, I should see the smaller and farther details in a image",
+    "uid" : "17ce8a3389ea1637",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874158754,
+      "stop" : 1669874166378,
+      "duration" : 7624
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "7ba94a1e8c4efdfb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874166379,
+      "stop" : 1669874166379,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "9b82ebef05cf3a5d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874166384,
+      "stop" : 1669874166385,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When i click on the trap check image",
+    "uid" : "76bbae89a39a582a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874166385,
+      "stop" : 1669874202866,
+      "duration" : 36481
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should see Next and Previous button on a trap image",
+    "uid" : "ebd26822fdbebb85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874202867,
+      "stop" : 1669874205511,
+      "duration" : 2644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Next and Previous button should be enabled only when there are more than one trap check images for the selected trap",
+    "uid" : "d04c299cc0127e6b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874205511,
+      "stop" : 1669874205512,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And I should see current image, total images in between Next and Previous buttons",
+    "uid" : "bc4eaf29cbd86bfb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874205513,
+      "stop" : 1669874206718,
+      "duration" : 1205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And I should view different trap check images by clicking on next and previous button",
+    "uid" : "40132235f4e5005f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874206718,
+      "stop" : 1669874214848,
+      "duration" : 8130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "489c6598e8642b70",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874214848,
+      "stop" : 1669874214848,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "86b736f40b36d5a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874214861,
+      "stop" : 1669874214862,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I collapse the region",
+    "uid" : "fba7b516e710e31d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874214863,
+      "stop" : 1669874216377,
+      "duration" : 1514
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then I should only see the region names",
+    "uid" : "d584d5ab8b75d08c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874216377,
+      "stop" : 1669874237270,
+      "duration" : 20893
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And A minus icon in front of it",
+    "uid" : "a5da5e2f5656156f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874237270,
+      "stop" : 1669874237271,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "42cbbbf91b4b0300",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874237271,
+      "stop" : 1669874237271,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "896b656b3d393448",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874237283,
+      "stop" : 1669874237286,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I  expand the region",
+    "uid" : "ed8c21e5605e0d6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874237286,
+      "stop" : 1669874237287,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then i should see crop, pest name",
+    "uid" : "17be0cda6419c259",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874237287,
+      "stop" : 1669874241248,
+      "duration" : 3961
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And the trap list should have status,pest count,trap name and updated date columns",
+    "uid" : "86a343b38fab5141",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874241248,
+      "stop" : 1669874246852,
+      "duration" : 5604
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And A plus icon in front of region name",
+    "uid" : "7cbf2759696bfff5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874246853,
+      "stop" : 1669874246854,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "8bf5da7212b19991",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874246854,
+      "stop" : 1669874246855,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Given I am logged in as a user and navigated to Trap screen",
+    "uid" : "88bda1dfa29b6156",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874246863,
+      "stop" : 1669874246866,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "When I click on X button to remove the regions.",
+    "uid" : "572c87a4811e6f2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874246866,
+      "stop" : 1669874265068,
+      "duration" : 18202
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "Then Region should be removed from the slider.",
+    "uid" : "5cb495fd63ed716",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874265068,
+      "stop" : 1669874265070,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "And Removed region should not be displayed in the slider and on a screen.",
+    "uid" : "b8129ee6c3ff9a49",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874265070,
+      "stop" : 1669874265072,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  }, {
+    "name" : "",
+    "uid" : "50d9212bc79b372e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669874265072,
+      "stop" : 1669874265072,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "google pixel 3 xl-9.0" ]
+  } ],
+  "name" : "behaviors"
+}

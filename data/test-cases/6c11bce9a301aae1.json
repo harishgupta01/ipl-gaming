@@ -1,0 +1,87 @@
+{
+  "uid" : "6c11bce9a301aae1",
+  "name" : "And Trap catches graph",
+  "fullName" : "My Trap section validations: Verify trap check details screen elements.And Trap catches graph",
+  "historyId" : "ef27a6fdc34c7609a60343f8e90ef1cb",
+  "time" : {
+    "start" : 1669874006438,
+    "stop" : 1669874008082,
+    "duration" : 1644
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Trap Catch Graph:  is displayed",
+      "time" : {
+        "start" : 1669874008082,
+        "stop" : 1669874008082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Trap catches graph"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify trap check details screen elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c11bce9a301aae1.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

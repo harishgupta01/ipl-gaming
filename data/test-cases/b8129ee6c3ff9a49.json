@@ -1,0 +1,102 @@
+{
+  "uid" : "b8129ee6c3ff9a49",
+  "name" : "And Removed region should not be displayed in the slider and on a screen.",
+  "fullName" : "My Trap section validations: Verify Remove region from slider on Trap tab.And Removed region should not be displayed in the slider and on a screen.",
+  "historyId" : "f7ee44dc66192326300f5e19f913584f",
+  "time" : {
+    "start" : 1669874265070,
+    "stop" : 1669874265072,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select Region Button is not displayed",
+      "time" : {
+        "start" : 1669874265070,
+        "stop" : 1669874265070,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Region Name is not displayed",
+      "time" : {
+        "start" : 1669874265071,
+        "stop" : 1669874265071,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "And Removed region should not be displayed in the slider and on a screen."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Remove region from slider on Trap tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8129ee6c3ff9a49.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

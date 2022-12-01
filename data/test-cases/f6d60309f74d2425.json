@@ -1,0 +1,117 @@
+{
+  "uid" : "f6d60309f74d2425",
+  "name" : "When I clicking on Show All Regions button.",
+  "fullName" : "My Trap section validations: Verify select all button.When I clicking on Show All Regions button.",
+  "historyId" : "a3f8a1f86a901c82f1a8f68b8c263127",
+  "time" : {
+    "start" : 1669873947168,
+    "stop" : 1669873968982,
+    "duration" : 21814
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873961171,
+        "stop" : 1669873961171,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Navigating to Region Selection Screen",
+      "time" : {
+        "start" : 1669873965966,
+        "stop" : 1669873965966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Show all Regions",
+      "time" : {
+        "start" : 1669873968982,
+        "stop" : 1669873968982,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I clicking on Show All Regions button."
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify select all button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6d60309f74d2425.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}

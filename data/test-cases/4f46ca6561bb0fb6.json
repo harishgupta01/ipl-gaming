@@ -1,0 +1,114 @@
+{
+  "uid" : "4f46ca6561bb0fb6",
+  "name" : "Then I should be able to sort trap details when click on Status column",
+  "fullName" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date.Then I should be able to sort trap details when click on Status column",
+  "historyId" : "da736917bb3686e3a3eafa3a02d5984e",
+  "time" : {
+    "start" : 1669873846561,
+    "stop" : 1669873862439,
+    "duration" : 15878
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Element is not clickable",
+      "time" : {
+        "start" : 1669873860568,
+        "stop" : 1669873860568,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicked on Element Status",
+      "time" : {
+        "start" : 1669873862435,
+        "stop" : 1669873862435,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ab017a7e43a64756",
+      "name" : "Screenshot",
+      "source" : "ab017a7e43a64756.png",
+      "type" : "image/png",
+      "size" : 207660
+    }, {
+      "uid" : "bca853c8450dba39",
+      "name" : "Screenshot",
+      "source" : "bca853c8450dba39.png",
+      "type" : "image/png",
+      "size" : 206903
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testClass",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to sort trap details when click on Status column"
+  }, {
+    "name" : "package",
+    "value" : "My Trap section validations: Verify Sort trap details list on the basis of Status, pest count, name and date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "google pixel 3 xl-9.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f46ca6561bb0fb6.json",
+  "parameterValues" : [ "google pixel 3 xl-9.0" ]
+}
