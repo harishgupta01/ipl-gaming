@@ -13,7 +13,7 @@ import {createSwitchNavigator, createAppContainer} from 'react-navigation';
   return <Signup />;
 };*/
 import {createBottomTabNavigator} from 'react-navigation-tabs';
-
+//Adding random commit Branch change2
 const AppTabNavigator = createBottomTabNavigator(
   {
     Bet: CurrentBet,
