@@ -11,6 +11,7 @@ import {CustomHeader} from './CustomHeader.js';
 import {getHistory, parseHistory} from '../rest/RestAPI';
 import {List, ListItem} from 'react-native-elements';
 import Spinner from 'react-native-spinkit';
+//Adding master commit2
 const TabIcon = props => (
   <Icon
     name={'history'}
