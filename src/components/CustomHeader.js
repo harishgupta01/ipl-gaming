@@ -4,6 +4,7 @@ import React from 'react';
 
 //import {useNavigation} from 'react-navigation-hooks';
 import Logout from './Logout';
+//Adding master commit3
 export function CustomHeader() {
   //const {navigate} = useNavigation();
 
