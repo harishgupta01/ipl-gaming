@@ -8,7 +8,7 @@ import InputView from './InputView.js';
 import ButtonView from './ButtonView.js';
 import {Button, Text} from 'react-native-elements';
 import {isValid} from './Utils';
-
+//Adding master commit1
 export default class Signup extends Component {
   constructor(props) {
     super(props);
